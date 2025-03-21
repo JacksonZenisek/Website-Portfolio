@@ -3,6 +3,10 @@ This website was developed by me to display my IT, web development, and software
 
 <p style="color:blue;">IT Training/Computer Repair:</p>
 
+<p style="color:blue;">Web Development</p>
+
+<p style="color:blue;">Software Development</p>
+
 
 There will be more project to view over time.
 
