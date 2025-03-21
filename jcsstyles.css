@@ -1906,7 +1906,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #mainmenuboxalt{
-        width:600px;
+        width:700px;
         height:1600px;
     }
 }
@@ -1950,7 +1950,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #image1alt,#image2alt,#image3alt,#image4alt{
         height:240px;
-        width:600px;
+        width:700px;
     }
 }
 
@@ -1987,7 +1987,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #featuredbanneralt{
         height:285px;
-        width:600px;
+        width:700px;
         margin-top:200px;
     }
 }
@@ -1995,7 +1995,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #mainfootalt{
         margin-top:200px;
-        width:600px;
+        width:700px;
         height:50px;
     }
 }
@@ -2007,7 +2007,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #salepicalt{
         height:150px;
-        width:600px;
+        width:700px;
     }
 }
 
@@ -2020,7 +2020,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #drinkselectionboxalt{
         height:250px;
-        width:600px;
+        width:700px;
     }
 }
 
@@ -2048,7 +2048,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #dot3alt{
         margin-top:-100px;
-        margin-left:230px;
+        margin-left:270px;
     }
 }
 
@@ -2056,7 +2056,7 @@ ul.shophourslist{
     #lemonadealt{
         margin-top:-110px;
         margin-right:auto;
-        margin-left:250px;
+        margin-left:300px;
         display:block;
 
     }
@@ -2066,7 +2066,7 @@ ul.shophourslist{
     #teaalt{
         margin-top:-25px;
         margin-right:auto;
-        margin-left:270px;
+        margin-left:320px;
         display:block;
 
     }
@@ -2075,13 +2075,13 @@ ul.shophourslist{
 @media (max-width:1075px){
     #dot4alt{
         margin-top:-15px;
-        margin-left:230px;
+        margin-left:270px;
     }
 }
 
 @media (max-width:1075px){
     #dot5alt,#dot6alt{
-        margin-left:460px;
+        margin-left:550px;
         margin-top:-130px;
     }
 }
@@ -2096,7 +2096,10 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #classiccoffeeheadingalt{
-        margin-top:100px;
+        margin-top:50px;
+        margin-right:auto;
+        margin-left:230px;
+        display:block;
     }
 }
 
@@ -2104,13 +2107,15 @@ ul.shophourslist{
     #classicdrinksboxalt,#jfdrinksboxalt,#lemonadedrinksboxalt,#teadrinksboxalt,#smoothiedrinksboxalt,#cocoadrinksboxalt{
         height:35%;
         width:600px;
+        margin-right:auto;
+        margin-left:auto;
     }      
 }
 
 @media (max-width:1075px){
     #classicbox1alt{
-       margin-left:auto;
-       margin-right:auto;
+       margin-left:200px;
+       margin-right:200px;
        display:block;
        margin-top:50px;
     }      
@@ -2118,8 +2123,8 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #classicbox2alt,#classicbox3alt,#classicbox4alt{
-        margin-left:auto;
-       margin-right:auto;
+       margin-left:200px;
+       margin-right:200px;
        display:none;
        float:none;
        margin-top:50px;
@@ -2134,17 +2139,17 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #jfbox1alt{
-       margin-left:auto;
-       margin-right:auto;
-       display:block;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        margin-top:50px;
     }      
 }
 
 @media (max-width:1075px){
     #jfbox2alt,#jfbox3alt,#jfbox4alt{
-        margin-left:auto;
-       margin-right:auto;
+        margin-left:200px;
+       margin-right:200px;
        display:none;
        float:none;
        margin-top:50px;
@@ -2153,17 +2158,17 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #lemonbox1alt{
-       margin-left:auto;
-       margin-right:auto;
-       display:block;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        margin-top:50px;
     }      
 }
 
 @media (max-width:1075px){
     #lemonbox2alt,#lemonbox3alt,#lemonbox4alt{
-        margin-left:auto;
-       margin-right:auto;
+        margin-left:200px;
+       margin-right:200px;
        display:none;
        float:none;
        margin-top:50px;
@@ -2172,17 +2177,17 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #teabox1alt{
-       margin-left:auto;
-       margin-right:auto;
-       display:block;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        margin-top:50px;
     }      
 }
 
 @media (max-width:1075px){
     #teabox2alt,#teabox3alt,#teabox4alt{
-        margin-left:auto;
-       margin-right:auto;
+        margin-left:200px;
+       margin-right:200px;
        display:none;
        float:none;
        margin-top:50px;
@@ -2191,39 +2196,39 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #smoothiebox1alt{
-       margin-left:auto;
-       margin-right:auto;
-       display:block;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        margin-top:50px;
     }      
 }
 
 @media (max-width:1075px){
     #smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt{
-        margin-left:auto;
-       margin-right:auto;
-       display:none;
-       float:none;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        float:none;
+        margin-top:50px;
     }
 }
 
 @media (max-width:1075px){
     #cocoabox1alt{
-       margin-left:auto;
-       margin-right:auto;
-       display:block;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        margin-top:50px;
     }      
 }
 
 @media (max-width:1075px){
     #cocoabox2alt,#cocoabox3alt,#cocoabox4alt{
-        margin-left:auto;
-       margin-right:auto;
-       display:none;
-       float:none;
-       margin-top:50px;
+        margin-left:200px;
+        margin-right:200px;
+        display:none;
+        float:none;
+        margin-top:50px;
     }
 }
 
@@ -2243,7 +2248,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #locationsboxalt{
         height:616px;
-        width:600px;
+        width:700px;
     }
 }
 
@@ -2262,13 +2267,13 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #mapalt{
-        width:595px;
+        width:695px;
     }
 }
 
 @media (max-width:1075px){
     #auboxalt{
-        width:600px;
+        width:700px;
     }
 }
 
@@ -2280,7 +2285,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #biodescription2alt{
-        font-size:18px;
+        font-size:30px;
     }
 }
 
@@ -2293,188 +2298,104 @@ ul.shophourslist{
 }
 
 @media (max-width:1075px){
-    #jfbox1alt{
-        margin-left:200px;
-    }      
-}
-
-@media (max-width:1075px){
-    #jfbox2alt,#jfbox3alt,#jfbox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
-    }
-}
-
-@media (max-width:1075px){
     #jfheadingalt{
-        margin-top:100px;
-    }
-}
-
-@media (max-width:1075px){
-    #lemonbox1alt{
-        margin-left:200px;
-    }      
-}
-
-@media (max-width:1075px){
-    #lemonbox2alt,#lemonbox3alt,#lemonbox4alt{
-        display:none;
+        margin-top:50px;
         margin-right:auto;
-        margin-left:auto;
+        margin-left:230px;
+        display:block;
     }
 }
 
 @media (max-width:1075px){
     #lemonadeheadingalt{
-        margin-top:100px;
-    }
-}
-
-@media (max-width:1075px){
-    #teabox1alt{
-        margin-left:200px;
-    }      
-}
-
-@media (max-width:1075px){
-    #teabox2alt,#teabox3alt,#teabox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
+        margin-top:50px;
+        margin-left:270px;
     }
 }
 
 @media (max-width:1075px){
     #teaheadingalt{
-        margin-top:100px;
-    }
-}
-
-@media (max-width:1075px){
-    #smoothiebox1alt{
-        margin-left:200px;
-    }      
-}
-
-@media (max-width:1075px){
-    #smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
+        margin-top:50px;
+        margin-left:280px;
     }
 }
 
 @media (max-width:1075px){
     #smoothieheadingalt{
-        margin-top:100px;
-    }
-}
-
-@media (max-width:1075px){
-    #cocoabox1alt{
-        margin-right:auto;
-        margin-left:auto;
-        display:block;
-    }      
-}
-
-@media (max-width:1075px){
-    #cocoabox2alt,#cocoabox3alt,#cocoabox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
+        margin-top:50px;
+        margin-left:270px;
     }
 }
 
 @media (max-width:1075px){
     #cocoaheadingalt{
-        margin-top:100px;
+        margin-top:50px;
+        margin-left:270px;
     }
 }
 
 @media (max-width:1075px){
-    #jfbox1alt{
-        margin-right:auto;
-        margin-left:auto;
-        display:block;
-    }      
-}
-
-@media (max-width:1075px){
-    #jfbox2alt,#jfbox3alt,#jfbox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
-    }
-}
-
-@media (max-width:1075px){
-    #lemonbox1alt{
-        margin-right:auto;
-        margin-left:auto;
-        display:block;
-    }      
-}
-
-@media (max-width:1075px){
-    #lemonbox2alt,#lemonbox3alt,#lemonbox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
-    }
-}
-
-@media (max-width:1075px){
-    #teabox1alt{
-        margin-right:auto;
-        margin-left:auto;
-        display:block;
-    }      
-}
-
-@media (max-width:1075px){
-    #teabox2alt,#teabox3alt,#teabox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
-    }
-}
-
-@media (max-width:1075px){
-    #smoothiebox1alt{
-        margin-right:auto;
-        margin-left:auto;
-        display:block;
-    }      
-}
-
-@media (max-width:1075px){
-    #smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt{
-        display:none;
-        margin-right:auto;
-        margin-left:auto;
-    }
-}
-
-@media (max-width:1075px){
-    #classicboxtogglebuttonsdivalt,#jfboxtogglebuttonsdivalt{
+    #classicboxtogglebuttonsdivalt,#jfboxtogglebuttonsdivalt,#lemonadetogglebuttonsdivalt,#teatogglebuttonsdivalt,#smoothietogglebuttonsdivalt,#cocoatogglebuttonsdivalt{
         height:50px;
-        width:600px;
+        width:700px;
         display:block;
-        margin-top:-30px;
+        margin-top:25px;
+        margin-right:auto;
+        margin-left:auto;
     }      
 }
 
 @media (min-width:1075px){
     #classicboxtogglebuttonsdivalt,#jfboxtogglebuttonsdivalt,#lemonadetogglebuttonsdivalt,#teatogglebuttonsdivalt,#smoothietogglebuttonsdivalt,#cocoatogglebuttonsdivalt{
         display:none;
+        margin-top:25px;
+        height:50px;
+        width:700px;
+        margin-right:auto;
+        margin-left:auto;
     }      
 }
 
 @media (max-width:1075px){
     #locationalt{
         margin-top:200px;
+        font-size:30px;
     }
+}
+
+@media (max-width:1075px){
+    #shophourslistalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #hotlatteheadingalt,#icedlatteheadingalt,#hotmochaheadingalt,#icedmochaheadingalt,#hotamericanoheadingalt,#icedamericanoheadingalt,#hotamericanoheadingalt,#icedcappuccinoaheadingalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #hotcarameldelightheadingalt,#icedcarameldelightheadingalt,#hothazelnutsunriseheadingalt,#icedhazelnutsunriseheadingalt,#hotvanillamagicheadingalt,#icedvanillamagicheadingalt,#hotcinnamontwisterheadingalt,#icedcinnamontwisterheadingalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #icedclassiclemonadeheadingalt,#icedpeachlemonadeheadingalt,#icedraspberrylemonadeheadingalt,#icedclassiclemonadeheadingalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #hotblackteaheadingalt,#icedblackteaheadingalt,#hotstrawberryteaeadingalt,#icedstrawberryteateaheadingalt,#hotraspberryteaheadingalt,#icedraspberryteaheadingalt,#hotgreenteaheadingalt,#icedgreenteaheadingalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #classicsalt,#favoritesalt,#lemonadealt,#teaalt,#smoothiealt,#cocoaalt{
+        font-size:25px;
+    }
+       
 }
