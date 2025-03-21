@@ -1,7 +1,8 @@
 # My Portfolio
 This website was developed by me to display my IT, web development, and software development abilities. I has a home, IT Training/Computer Repair, Web Development, and Software Development.
 
-IT Training/Computer Repair:
+<b style="color:blue;">IT Training/Computer Repair:</b>
+
 Displays my CompTIA Certifications, previous computer support projects, and networking projects.
 
 Web Development:
