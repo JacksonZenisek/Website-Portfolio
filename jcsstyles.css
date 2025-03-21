@@ -1,7 +1,7 @@
 /*The CSS file of John's Coffee Shop*/
 body.main{
     background:fixed;
-    background-image: url("mainbackground.png");
+    background-image: url("/home/jacksonz/Downloads/mainbackground.png");
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-size:cover;
@@ -1907,7 +1907,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #mainmenuboxalt{
         width:600px;
-        height:1300px;
+        height:1600px;
     }
 }
 
@@ -1916,13 +1916,6 @@ ul.shophourslist{
         height:170px;
         width:600px;
         margin-top:50px;
-    }
-}
-
-@media (max-width:1075px){
-    #mainmenuboxalt{
-        width:600px;
-        height:1300px;
     }
 }
 
@@ -1995,6 +1988,7 @@ ul.shophourslist{
     #featuredbanneralt{
         height:285px;
         width:600px;
+        margin-top:200px;
     }
 }
 
@@ -2102,7 +2096,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #classiccoffeeheadingalt{
-        margin-top:-100px;
+        margin-top:100px;
     }
 }
 
@@ -2118,6 +2112,7 @@ ul.shophourslist{
        margin-left:auto;
        margin-right:auto;
        display:block;
+       margin-top:50px;
     }      
 }
 
@@ -2127,7 +2122,7 @@ ul.shophourslist{
        margin-right:auto;
        display:none;
        float:none;
-       margin-top:0px;
+       margin-top:50px;
     }
 }
 
@@ -2138,13 +2133,31 @@ ul.shophourslist{
 }
 
 @media (max-width:1075px){
+    #jfbox1alt{
+       margin-left:auto;
+       margin-right:auto;
+       display:block;
+       margin-top:50px;
+    }      
+}
+
+@media (max-width:1075px){
     #jfbox2alt,#jfbox3alt,#jfbox4alt{
         margin-left:auto;
        margin-right:auto;
        display:none;
        float:none;
-       margin-top:0px;
+       margin-top:50px;
     }
+}
+
+@media (max-width:1075px){
+    #lemonbox1alt{
+       margin-left:auto;
+       margin-right:auto;
+       display:block;
+       margin-top:50px;
+    }      
 }
 
 @media (max-width:1075px){
@@ -2153,8 +2166,17 @@ ul.shophourslist{
        margin-right:auto;
        display:none;
        float:none;
-       margin-top:0px;
+       margin-top:50px;
     }
+}
+
+@media (max-width:1075px){
+    #teabox1alt{
+       margin-left:auto;
+       margin-right:auto;
+       display:block;
+       margin-top:50px;
+    }      
 }
 
 @media (max-width:1075px){
@@ -2163,8 +2185,17 @@ ul.shophourslist{
        margin-right:auto;
        display:none;
        float:none;
-       margin-top:0px;
+       margin-top:50px;
     }
+}
+
+@media (max-width:1075px){
+    #smoothiebox1alt{
+       margin-left:auto;
+       margin-right:auto;
+       display:block;
+       margin-top:50px;
+    }      
 }
 
 @media (max-width:1075px){
@@ -2173,8 +2204,17 @@ ul.shophourslist{
        margin-right:auto;
        display:none;
        float:none;
-       margin-top:0px;
+       margin-top:50px;
     }
+}
+
+@media (max-width:1075px){
+    #cocoabox1alt{
+       margin-left:auto;
+       margin-right:auto;
+       display:block;
+       margin-top:50px;
+    }      
 }
 
 @media (max-width:1075px){
@@ -2183,7 +2223,7 @@ ul.shophourslist{
        margin-right:auto;
        display:none;
        float:none;
-       margin-top:0px;
+       margin-top:50px;
     }
 }
 
@@ -2248,7 +2288,7 @@ ul.shophourslist{
     #mainfootalt{
         height:120px;
         position:relative;
-        margin-top:200px;
+        margin-top:500px;
     }
 }
 
@@ -2268,7 +2308,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #jfheadingalt{
-        margin-top:-100px;
+        margin-top:100px;
     }
 }
 
@@ -2288,7 +2328,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #lemonadeheadingalt{
-        margin-top:-100px;
+        margin-top:100px;
     }
 }
 
@@ -2308,7 +2348,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #teaheadingalt{
-        margin-top:-100px;
+        margin-top:100px;
     }
 }
 
@@ -2328,7 +2368,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #smoothieheadingalt{
-        margin-top:-100px;
+        margin-top:100px;
     }
 }
 
@@ -2350,7 +2390,7 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #cocoaheadingalt{
-        margin-top:-100px;
+        margin-top:100px;
     }
 }
 
@@ -2431,4 +2471,10 @@ ul.shophourslist{
     #classicboxtogglebuttonsdivalt,#jfboxtogglebuttonsdivalt,#lemonadetogglebuttonsdivalt,#teatogglebuttonsdivalt,#smoothietogglebuttonsdivalt,#cocoatogglebuttonsdivalt{
         display:none;
     }      
+}
+
+@media (max-width:1075px){
+    #locationalt{
+        margin-top:200px;
+    }
 }
