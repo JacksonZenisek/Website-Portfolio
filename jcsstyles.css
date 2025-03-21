@@ -1,0 +1,2434 @@
+/*The CSS file of John's Coffee Shop*/
+body.main{
+    background:fixed;
+    background-image: url("/home/jacksonz/Downloads/mainbackground.png");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+}
+
+div.mainmenubox{
+    height:1500px;
+    width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    background-color:white;
+    border: 5px solid rgb(197, 197, 197);
+}
+
+header.headingbox{
+    height:300px;
+}
+
+div.logsignbuttons{
+    height:auto;
+    width:auto;
+    float:right;
+}
+
+button.loginbutton{
+    height:30px;
+    width:80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    background-color:transparent;
+    border:1px solid transparent;
+    color:rgb(65, 146, 65);
+}
+
+button.loginbutton:hover{
+    height:30px;
+    width:80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    background-color:transparent;
+    border:1px solid transparent;
+    color:rgb(108, 192, 108);
+    cursor:pointer;
+}
+
+img.mainbanner{
+    height:280px;
+    width:1000px;
+}
+
+div.mainselectionboxouter{
+    height:75px;
+    width:800px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+
+button.homebutton{
+    height:50px;
+    width: 85px;
+    margin-left:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(65, 146, 65);
+    background-color:transparent;
+    border:1px solid transparent;
+}
+
+button.homebutton:hover{
+    height:50px;
+    width: 85px;
+    margin-left:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(108, 192, 108);
+    background-color:transparent;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+
+button.menubutton{
+    height:50px;
+    width: 75px;
+    margin-left:65px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(65, 146, 65);
+    background-color:transparent;
+    border:1px solid transparent;
+    
+}
+
+button.menubutton:hover{
+    height:50px;
+    width: 75px;
+    margin-left:65px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(108, 192, 108);
+    background-color:transparent;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+
+button.locationsbutton{
+    height:50px;
+    width: 75px;
+    margin-left:75px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(65, 146, 65);
+    background-color:transparent;
+    border:1px solid transparent;
+}
+
+button.locationsbutton:hover{
+    height:50px;
+    width: 75px;
+    margin-left:75px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(108, 192, 108);
+    background-color:transparent;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+
+button.aubutton{
+    height:50px;
+    width: 130px;
+    float:right;
+    margin-right:70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(65, 146, 65);
+    background-color:transparent;
+    border:1px solid transparent;
+}
+
+button.aubutton:hover{
+    height:50px;
+    width: 130px;
+    float:right;
+    margin-right:70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(108, 192, 108);
+    background-color:transparent;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+
+div.homebox{
+    height:auto;
+    width:1000px;
+    display:block;
+}
+
+div.slidesbox{
+    height:400px;
+    width: 1000px;
+}
+
+img.image1{
+    height:400px;
+    width:1000px;
+    display:block;
+}
+
+img.image2{
+    height:400px;
+    width:1000px;
+    display:none;
+}
+
+img.image3{
+    height:400px;
+    width:1000px;
+    display:none;
+}
+
+img.image4{
+    height:400px;
+    width:1000px;
+    display:none;
+}
+
+h1.bannerheading1{
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+    color:White;
+    margin-top:-375px;
+    text-align:center;
+    display:block;
+}
+
+h2.bannerheading2{
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+    color:White;
+    margin-top:-305px;
+    text-align:left;
+    display:none;
+}
+
+h3.bannerheading3{
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+    color:White;
+    margin-top:-305px;
+    text-align:left;
+    display:none;
+}
+
+h4.bannerheading4{
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+    color:White;
+    margin-top:-305px;
+    text-align:left;
+    display:none;
+}
+
+div.mainunderdiv{
+    height:550px;
+    width:1000px;
+}
+
+img.featuredbanner{
+    height:475px;
+    width:1000px;
+}
+
+footer.mainfoot{
+    height:120px;
+    width:1000px;
+}
+
+
+
+/*Menu section*/
+div.menubox{
+    height:968px;
+    width:1000px;
+    display:none;
+}
+
+div.dealsbox{
+    height:175px;
+    width:1000px;
+}
+
+img.salepic{
+    height:200px;
+    width:1000px;
+}
+
+div.drinkselectionbox{
+    height:600px;
+    width:300px;
+    background-color: rgb(122, 233, 200);
+    text-align:center;
+}
+
+button.classics{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(12, 70, 70);
+}
+
+button.classics:hover{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(29, 128, 128);
+}
+
+button.favorites{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(12, 70, 70);
+}
+
+button.favorites:hover{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(29, 128, 128);
+}
+
+button.lemonade{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(12, 70, 70);
+}
+
+button.lemonade:hover{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(29, 128, 128);
+}
+
+button.tea{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(12, 70, 70);
+}
+
+button.tea:hover{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(29, 128, 128);
+}
+
+button.smoothie{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(12, 70, 70);
+}
+
+button.smoothie:hover{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(29, 128, 128);
+}
+
+button.cocoa{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(12, 70, 70);
+}
+
+button.cocoa:hover{
+    height:30px;
+    width:auto;
+    cursor:pointer;
+    background-color:transparent;
+    border: 1px solid transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(29, 128, 128);
+}
+
+div.dot1{
+    height:10px;
+    width:10px;
+    background-color:black;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top:10px;
+    position:absolute;
+}
+
+div.dot2{
+    height:10px;
+    width:10px;
+    background-color:black;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top:10px;
+    position:absolute;
+    display:none;
+}
+
+div.dot3{
+    height:10px;
+    width:10px;
+    background-color:black;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top:10px;
+    position:absolute;
+    display:none;
+}
+
+div.dot4{
+    height:10px;
+    width:10px;
+    background-color:black;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top:10px;
+    position:absolute;
+    display:none;
+}
+
+div.dot5{
+    height:10px;
+    width:10px;
+    background-color:black;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top:10px;
+    position:absolute;
+    display:none;
+}
+
+div.dot6{
+    height:10px;
+    width:10px;
+    background-color:black;
+    border-radius: 20px;
+    margin-left:50px;
+    margin-top:10px;
+    position:absolute;
+    display:none;
+}
+
+div.classicdrinksbox{
+    height:700px;
+    width:690px;
+    float:right;
+    margin-top:30px;
+}
+
+div.jfdrinksbox{
+    height:700px;
+    width:690px;
+    float:right;
+    margin-top:30px;
+    display:none;
+}
+
+div.lemonadedrinksbox{
+    height:700px;
+    width:690px;
+    float:right;
+    margin-top:30px;
+    display:none;
+
+}
+
+div.teadrinksbox{
+    height:700px;
+    width:690px;
+    float:right;
+    margin-top:30px;
+    display:none;
+}
+
+div.smoothiedrinksbox{
+    height:700px;
+    width:690px;
+    float:right;
+    margin-top:30px;
+    display:none;
+}
+
+div.cocoadrinksbox{
+    height:700px;
+    width:690px;
+    float:right;
+    margin-top:30px;
+    display:none;
+}
+
+img.classiccoffeeheading{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img.jfheading{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img.lemonadeheading{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img.teaheading{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img.smoothieheading{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img.cocoaheading{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+div.classicbox1{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+
+}
+
+div.classicbox2{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-top:-300px;
+    margin-right:20px;
+    text-align:center;
+}
+
+div.classicbox3{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    margin-top:20px;
+    text-align:center;
+}
+
+div.classicbox4{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+img.hotlatte{
+    height:100px;
+    width:100px;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+img.icedlatte{
+    height:100px;
+    width:100px;
+}
+
+p.hotlatteheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedlattediv{
+    display:none;
+}
+
+div.hotlattediv{
+    height:auto;
+    width:auto;
+}
+
+p.icedlatteheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotlattebutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotlattebutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+button.icedlattebutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+button.icedlattebutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+img.hotmocha{
+    height:100px;
+    width:100px;
+}
+
+p.hotmochaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedmochadiv{
+    display:none;
+}
+
+img.icedmocha{
+    height:100px;
+    width:50px;
+}
+
+p.icedmochaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotmochabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168); 
+}
+
+button.hotmochabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168); 
+    cursor:pointer;
+}
+
+button.icedmochabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedmochabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+img.hotamericano{
+    height:100px;
+    width:100px;
+}
+
+p.hotamericanoaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedamericanodiv{
+    display:none;
+}
+
+img.icedamericano{
+    height:100px;
+    width:75px;
+}
+
+p.icedamericanoaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotamericanobutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotamericanobutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+button.icedamericanobutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+button.icedamericanobutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+img.hotcappuccino{
+    height:100px;
+    width:100px;
+}
+
+button.hotcappuccinobutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotcappuccinobutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+div.icedcappuccinodiv{
+    display:none;
+}
+
+button.icedcappuccinobutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+button.icedcappuccinobutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+img.icedcappuccino{
+    height:100px;
+    width:75px;
+}
+
+p.icedcappuccinoaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+div.jfbox1{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.jfbox2{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+div.jfbox3{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.jfbox4{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+ div.hotcarameldelightcoffeediv{
+    display:block;
+ }
+
+img.hotcarameldelightcoffee{
+    height:100px;
+    width:100px;
+}
+
+p.hotcarameldelightheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedcarameldelightcoffeediv{
+    display:none;
+}
+
+img.icedcarameldelightcoffee{
+    height:100px;
+    width:100px;
+}
+
+p.icedcarameldelightheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotcarameldelightbutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotcarameldelightbutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+button.icedcarameldelightbutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+button.icedcarameldelightbutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+img.hotcinnamontwister{
+    height:100px;
+    width:100px;
+}
+
+p.hotcinnamontwisterheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedcinnamontwistercoffeebox{
+    display:none;
+}
+
+img.icedcinnamontwister{
+    height:100px;
+    width:50px;
+}
+
+p.icedcinnamontwisterheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+p.icedcinnamontwisterheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotcinnamontwisterbutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotcinnamontwisterbutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+button.icedcinnamontwisterbutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+button.icedcinnamontwisterbutton:hover{
+    height:30px;
+    width:50px;
+    cursor:pointer;
+}
+
+div.icedvanillamagicbox{
+    display:none;
+}
+
+p.hotvanillamagicheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.hotvanillamagic{
+    height:100px;
+    width: 80px;
+}
+
+img.icedvanillamagic{
+    height:100px;
+    width:75px;
+}
+
+p.icedvanillamagicheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotvanillamagicbutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotvanillamagicbutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+    cursor:pointer;
+}
+
+button.icedvanillamagicbutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedvanillamagicbutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+div.icedhazelnutcoffeebox{
+    display:none;
+}
+
+img.hazelnutcoffee{
+    height:100px;
+    width:100px;
+}
+
+p.hothazelnutsunriseheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    color:rgb(65, 129, 108);
+}
+
+button.hothazelnutsunrisebutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hothazelnutsunrisebutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+    cursor:pointer;
+}
+
+button.icedhazelnutsunrisebutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedhazelnutsunrisebutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+p.icedhazelnutsunriseheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    color:rgb(94, 180, 152);
+}
+
+div.lemonbox1{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.lemonbox2{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+div.lemonbox3{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.lemonbox4{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+img.classiclemonade{
+    height:100px;
+    width:100px;
+}
+
+p.icedclassiclemonadeheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.strawberrylemonade{
+    height:100px;
+    width:80px;
+}
+
+p.icedstrawberrylemonadeheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.raspberrylemonade{
+    height:100px;
+    width:60px;
+}
+
+p.icedraspberrylemonadeheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.peachlemonade{
+    height:100px;
+    width:90px;
+}
+
+p.icedpeachlemonadeheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.teabox1{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.teabox2{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+div.teabox3{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.teabox4{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+img.hotblacktea{
+    height:100px;
+    width:90px;
+}
+
+p.hotblackteaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedblackteabox{
+    display:none;
+}
+
+img.icedblacktea{
+    height:100px;
+    width:80px;
+}
+
+p.icedblackteaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotblackteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotblackteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+    cursor:pointer;
+}
+
+button.icedblackteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedblackteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+img.hotgreentea{
+    height:100px;
+    width:100px;
+}
+
+img.icedgreentea{
+    height:100px;
+    width:60px;
+}
+
+img.icedhazelnutcoffee{
+    height:100px;
+    width:60px;
+}
+
+p.hotgreenteaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedgreenteabox{
+    display:none;
+}
+
+p.icedgreenteaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotgreenteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotgreenteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+    cursor:pointer;
+}
+
+button.icedgreenteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedgreenteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+img.hotraspberrytea{
+    height:100px;
+    width:100px;
+}
+
+p.hotraspberryteateaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icedraspberryteabox{
+    display:none;
+}
+
+img.icedraspberrytea{
+    height:100px;
+    width:60px;
+}
+
+p.icedraspberryteateaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotraspberryteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotraspberryteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+    cursor:pointer;
+}
+
+button.icedgreenteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedgreenteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+img.hotstrawberrytea{
+    height:100px;
+    width:100px;
+}
+
+p.hotstrawberryteaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.icedstrawberrytea{
+    height:100px;
+    width:60px;
+}
+
+p.icedstrawberryteateaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(94, 180, 152);
+}
+
+button.hotstrawberryteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+}
+
+button.hotstrawberryteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(35, 168, 168);
+    cursor:pointer;
+}
+
+button.icedstrawberryteabutton{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+}
+
+button.icedstrawberryteabutton:hover{
+    height:30px;
+    width:50px;
+    background-color:rgb(29, 219, 219);
+    cursor:pointer;
+}
+
+div.icedstrawberryteabox{
+    display:none;
+}
+
+div.smoothiebox1{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.smoothiebox2{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+div.smoothiebox3{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.smoothiebox4{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+img.mangomadnesssmoothie{
+    height:100px;
+    width:60px;
+}
+
+p.mangomadnessteaheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.wonderfulpinkdelight{
+    height:100px;
+    width:60px;
+}
+
+p.wonderfulpinkdelightheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.bluemagicsmoothie{
+    height:100px;
+    width:60px;
+}
+
+p.bluemagicheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.greenmonster{
+   height:100px;
+   width:60px;
+}
+
+p.greenmonsterheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.cocoabox1{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.cocoabox2{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+div.cocoabox3{
+    height: 300px;
+    width: 300px;
+    margin-left:20px;
+    text-align:center;
+}
+
+div.cocoabox4{
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right:20px;
+    margin-top:-300px;
+    text-align:center;
+}
+
+img.originalcocoa{
+    height:100px;
+    width:100px;
+}
+
+p.originalhotcocoa{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.hotvanillacocoa{
+    height:100px;
+    width:100px;
+}
+
+p.vanillahotcocoa{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.hotcaramelcocoa{
+    height:100px;
+    width:60px;
+}
+
+p.hotcaramelcocoa{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+img.hotwhitechocolatecocoa{
+    height:100px;
+    width:100px;
+}
+
+p.hotwhitechocolatecocoa{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(65, 129, 108);
+}
+
+div.icondiv{
+    height:auto;
+    width:fit-content;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.fbico{
+    height:50px;
+    width:50px;
+}
+
+img.fbico:hover{
+    height:50px;
+    width:50px;
+    opacity: 80%;
+    cursor:pointer;
+}
+
+img.instaico{
+    height:50px;
+    width:50px;
+}
+
+img.instaico:hover{
+    height:50px;
+    width:50px;
+    opacity: 80%;
+    cursor:pointer;
+}
+
+button.fbbutton{
+    border:1px solid transparent;
+    background-color:transparent;
+}
+
+button.instabutton{
+    border:1px solid transparent;
+    background-color:transparent;
+}
+
+img.emailico{
+    height:50px;
+    width:55px;
+}
+
+img.emailico:hover{
+    height:50px;
+    width:55px;
+    opacity: 80%;
+    cursor:pointer;
+}
+
+button.emailbutton{
+    border:1px solid transparent;
+    background-color:transparent;
+}
+
+img.phoneico{
+    height:50px;
+    width:50px;
+}
+
+img.phoneico:hover{
+    height:50px;
+    width:50px;
+    opacity: 80%;
+    cursor:pointer;
+}
+
+button.phonebutton{
+    border:1px solid transparent;
+    background-color:transparent;
+}
+
+button.classicprevious{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    margin-left:50px;
+}
+
+button.classicprevious:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+
+button.classicnext{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    float:right;
+    margin-right:50px;
+}
+
+button.classicnext:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+}
+
+button.jfprevious{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    margin-left:50px;
+}
+
+button.jfprevious:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+
+button.jfnext{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    float:right;
+    margin-right:50px;
+}
+
+button.jfnext:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+}
+
+button.lemonadeprevious{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    margin-left:50px;
+}
+
+button.lemonadeprevious:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+
+button.lemonadenext{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    float:right;
+    margin-right:50px;
+}
+
+button.lemonadenext:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+}
+
+button.teaprevious{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    margin-left:50px;
+}
+
+button.teaprevious:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+
+button.teanext{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    float:right;
+    margin-right:50px;
+}
+
+button.teanext:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+}
+
+button.smoothieprevious{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    margin-left:50px;
+}
+
+button.smoothieprevious:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+
+button.smoothienext{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    float:right;
+    margin-right:50px;
+}
+
+button.smoothienext:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+}
+
+button.cocoaprevious{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    margin-left:50px;
+}
+
+button.cocoaprevious:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+
+button.cocoanext{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(122, 233, 200);
+    border-radius:5px;
+    float:right;
+    margin-right:50px;
+}
+
+button.cocoanext:hover{
+    height:40px;
+    width:75px;
+    border: 1px solid grey;
+    background-color:rgb(160, 231, 210);
+    border-radius:5px;
+    cursor:pointer;
+    float:right;
+    margin-right:50px;
+}
+
+/*Locations Section*/
+div.locationsbox{
+    height:966px;
+    width:1000px;
+    display:none;
+    border:1px solid transparent;
+}
+
+div.mapsbox{
+    height:400px;
+    width:100%;
+}
+
+p.location{
+    font-size:20px;
+    color:rgb(65, 146, 65);
+}
+
+iframe.map{
+    width:995px;
+    height:400px;
+   
+}
+
+/*About Us Section*/
+div.aubox{
+    height:966px;
+    width:1000px;
+    display:none;
+    border:1px solid transparent;
+}
+
+h1.aboutheading{
+    text-align:center;
+    color:rgb(65, 146, 65);
+
+}
+
+div.workerphotobox{
+    height:300px;
+    width:300px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    border-style:double;
+    border-width: 5px;
+    border-radius:20px;
+    text-align:center;
+}
+
+img.workerphoto{
+    height:280px;
+    width:280px;
+}
+
+div.biodescriptionbox{
+    height:500px;
+    width:800px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+b.johnsname{
+    font-size:50px;
+}
+
+p.biodescription{
+    font-size:18px;
+}
+
+ul.shophourslist{
+    color:rgb(65, 146, 65);
+}
+
+
+
+/*Media Querries*/
+
+/*Home Page*/
+
+@media (max-width:1075px){
+    #mainmenuboxalt{
+        width:600px;
+        height:1300px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainbanneralt{
+        height:170px;
+        width:600px;
+        margin-top:50px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainmenuboxalt{
+        width:600px;
+        height:1300px;
+    }
+}
+
+@media (max-width:1075px){
+    #homeboxalt{
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainselectionboxouteralt{
+        width:500px;
+        height:75px;
+        margin-top:-50px;
+    }
+}
+
+@media (max-width:1075px){
+    #homebuttonalt{
+        height:50px;
+        width: 85px;
+        margin-left:-30px;
+    }
+}
+
+@media (max-width:1075px){
+    #slidesboxalt{
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #image1alt,#image2alt,#image3alt,#image4alt{
+        height:240px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #bannerheading1alt,#bannerheading2alt,#bannerheading3alt,#bannerheading4alt{
+        font-size:30px;
+        margin-top:-150px;
+        color:white;
+    }
+}
+
+@media (max-width:1075px){
+    #bannerheading1alt{
+        font-size:30px;
+        margin-top:-210px;
+        color:white;
+    }
+}
+
+@media (max-width:1075px){
+    #aubuttonalt{
+        margin-right:-50px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainunderdivalt{
+        height:350px;
+        width:600px;
+        margin-top:-150px;
+    }
+}
+
+@media (max-width:1075px){
+    #featuredbanneralt{
+        height:285px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainfootalt{
+        margin-top:200px;
+        width:600px;
+        height:50px;
+    }
+}
+
+
+
+/*Menu Page*/
+
+@media (max-width:1075px){
+    #salepicalt{
+        height:150px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainunderdivalt{
+        height:350px;
+    }
+}
+
+@media (max-width:1075px){
+    #drinkselectionboxalt{
+        height:250px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #classicdrinksboxalt,#jfdrinksboxalt,#lemonadedrinksboxalt,#teadrinksboxalt,#smoothiedrinksboxalt,#cocoadrinksboxalt{
+        float:left;
+        
+    }
+}
+
+@media (max-width:1075px){
+    #dot1alt,#dot2alt{
+        float:left;
+        margin-left:0px;
+    }
+}
+
+@media (max-width:1075px){
+    #classicsalt,#favoritesalt{
+        float:left;
+        margin-left:20px;
+    }
+}
+
+@media (max-width:1075px){
+    #dot3alt{
+        margin-top:-100px;
+        margin-left:230px;
+    }
+}
+
+@media (max-width:1075px){
+    #lemonadealt{
+        margin-top:-110px;
+        margin-right:auto;
+        margin-left:250px;
+        display:block;
+
+    }
+}
+
+@media (max-width:1075px){
+    #teaalt{
+        margin-top:-25px;
+        margin-right:auto;
+        margin-left:270px;
+        display:block;
+
+    }
+}
+
+@media (max-width:1075px){
+    #dot4alt{
+        margin-top:-15px;
+        margin-left:230px;
+    }
+}
+
+@media (max-width:1075px){
+    #dot5alt,#dot6alt{
+        margin-left:460px;
+        margin-top:-130px;
+    }
+}
+
+@media (max-width:1075px){
+    #smoothiealt,#cocoaalt{
+        float:right;
+        margin-right:20px;
+        margin-top:-140px;
+    }
+}
+
+@media (max-width:1075px){
+    #classiccoffeeheadingalt{
+        margin-top:-100px;
+    }
+}
+
+@media (max-width:1075px){
+    #classicdrinksboxalt,#jfdrinksboxalt,#lemonadedrinksboxalt,#teadrinksboxalt,#smoothiedrinksboxalt,#cocoadrinksboxalt{
+        height:35%;
+        width:600px;
+    }      
+}
+
+@media (max-width:1075px){
+    #classicbox1alt{
+       margin-left:auto;
+       margin-right:auto;
+       display:block;
+    }      
+}
+
+@media (max-width:1075px){
+    #classicbox2alt,#classicbox3alt,#classicbox4alt{
+        margin-left:auto;
+       margin-right:auto;
+       display:none;
+       float:none;
+       margin-top:0px;
+    }
+}
+
+@media (min-width:1075px){
+    #classicbox2alt,#classicbox3alt,#classicbox4alt{
+       display:block;   
+    }
+}
+
+@media (max-width:1075px){
+    #jfbox2alt,#jfbox3alt,#jfbox4alt{
+        margin-left:auto;
+       margin-right:auto;
+       display:none;
+       float:none;
+       margin-top:0px;
+    }
+}
+
+@media (max-width:1075px){
+    #lemonbox2alt,#lemonbox3alt,#lemonbox4alt{
+        margin-left:auto;
+       margin-right:auto;
+       display:none;
+       float:none;
+       margin-top:0px;
+    }
+}
+
+@media (max-width:1075px){
+    #teabox2alt,#teabox3alt,#teabox4alt{
+        margin-left:auto;
+       margin-right:auto;
+       display:none;
+       float:none;
+       margin-top:0px;
+    }
+}
+
+@media (max-width:1075px){
+    #smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt{
+        margin-left:auto;
+       margin-right:auto;
+       display:none;
+       float:none;
+       margin-top:0px;
+    }
+}
+
+@media (max-width:1075px){
+    #cocoabox2alt,#cocoabox3alt,#cocoabox4alt{
+        margin-left:auto;
+       margin-right:auto;
+       display:none;
+       float:none;
+       margin-top:0px;
+    }
+}
+
+@media (max-width:1075px){
+    #dealsboxalt{
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #menuboxalt{
+        height:618px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #locationsboxalt{
+        height:616px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #auboxalt{
+        height:616px;
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #locationsboxalt{
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #mapalt{
+        width:595px;
+    }
+}
+
+@media (max-width:1075px){
+    #auboxalt{
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #biodescriptionboxalt{
+        width:600px;
+    }
+}
+
+@media (max-width:1075px){
+    #biodescription2alt{
+        font-size:18px;
+    }
+}
+
+@media (max-width:1075px){
+    #mainfootalt{
+        height:120px;
+        position:relative;
+        margin-top:200px;
+    }
+}
+
+@media (max-width:1075px){
+    #jfbox1alt{
+        margin-left:200px;
+    }      
+}
+
+@media (max-width:1075px){
+    #jfbox2alt,#jfbox3alt,#jfbox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #jfheadingalt{
+        margin-top:-100px;
+    }
+}
+
+@media (max-width:1075px){
+    #lemonbox1alt{
+        margin-left:200px;
+    }      
+}
+
+@media (max-width:1075px){
+    #lemonbox2alt,#lemonbox3alt,#lemonbox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #lemonadeheadingalt{
+        margin-top:-100px;
+    }
+}
+
+@media (max-width:1075px){
+    #teabox1alt{
+        margin-left:200px;
+    }      
+}
+
+@media (max-width:1075px){
+    #teabox2alt,#teabox3alt,#teabox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #teaheadingalt{
+        margin-top:-100px;
+    }
+}
+
+@media (max-width:1075px){
+    #smoothiebox1alt{
+        margin-left:200px;
+    }      
+}
+
+@media (max-width:1075px){
+    #smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #smoothieheadingalt{
+        margin-top:-100px;
+    }
+}
+
+@media (max-width:1075px){
+    #cocoabox1alt{
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }      
+}
+
+@media (max-width:1075px){
+    #cocoabox2alt,#cocoabox3alt,#cocoabox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #cocoaheadingalt{
+        margin-top:-100px;
+    }
+}
+
+@media (max-width:1075px){
+    #jfbox1alt{
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }      
+}
+
+@media (max-width:1075px){
+    #jfbox2alt,#jfbox3alt,#jfbox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #lemonbox1alt{
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }      
+}
+
+@media (max-width:1075px){
+    #lemonbox2alt,#lemonbox3alt,#lemonbox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #teabox1alt{
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }      
+}
+
+@media (max-width:1075px){
+    #teabox2alt,#teabox3alt,#teabox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #smoothiebox1alt{
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }      
+}
+
+@media (max-width:1075px){
+    #smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt{
+        display:none;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
+
+@media (max-width:1075px){
+    #classicboxtogglebuttonsdivalt,#jfboxtogglebuttonsdivalt{
+        height:50px;
+        width:600px;
+        display:block;
+        margin-top:-30px;
+    }      
+}
+
+@media (min-width:1075px){
+    #classicboxtogglebuttonsdivalt,#jfboxtogglebuttonsdivalt,#lemonadetogglebuttonsdivalt,#teatogglebuttonsdivalt,#smoothietogglebuttonsdivalt,#cocoatogglebuttonsdivalt{
+        display:none;
+    }      
+}

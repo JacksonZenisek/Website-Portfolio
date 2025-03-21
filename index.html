@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JZenisek Portfolio</title>
+        <link href="portmainstyles.css" rel="stylesheet">
+        <script src="portmainactions.js"></script>
+        <meta charset="UTF-8" viewwidth=device-width, initial-scale="1.0">
+    </head>
+    <body class="mainbody">
+        <header class="selectionheader" class="selectionheaderalt">
+            <div class="namebox">
+            </div>
+            <button class="mobilemenubutton" id="mobilemenubuttonalt" onclick="showmobilesidemenu(),transitionslide()" onmouseover="highlightmobilebutton()" onmouseout="dullmobilebutton()">
+                <br>
+                <div class="spans1" id="spans1alt"></div>
+                <div class="spans2" id="spans2alt"></div>
+                <div class="spans3" id="spans3alt"></div>
+          </button>
+          <button class="mobileexitmenubutton" id="mobileexitmenubuttonalt" onclick="hidemobilesidemenu()" onmouseover="highlightmobileexitbutton()" onmouseout="dulmobileexitbutton()">
+            <br>
+            <div class="spans1exit" id="spans1exitalt"></div>
+            <div class="spans2exit" id="spans2exitalt"></div>
+      </button>
+            <div class="linkedinbox" id="linkedinboxalt">
+                <a href="https://www.linkedin.com/in/jackson-zenisek-23549a1b7/"><img class="linkedinicon" src="portimages/linkedinimg.png"></a>
+              </div>
+            <div class="softdbox" id="softdboxalt">
+                <br>
+                    <br>
+                        <br>
+              <button class="softdbutton" id="softdbuttonalt" onclick="showsoftdsection()">Software Development</button>
+              <div class="softdunderline" id="softdunderlinealt"></div>
+            </div>
+            <div class="webdbox" id="webdboxalt">
+                <br>
+                    <br>
+                        <br>
+                <button class="webdbutton" id="webdbuttonalt" onclick="showwebdsection(),webdnosoftdyes(),clicktwicewebd()">Web Development</button>
+                <div class="webdunderline" id="webdunderlinealt"></div>
+            </div>
+              <div class="itbox" id="itboxalt">
+                <br>
+                    <br>
+                        <br>
+                <button class="itbutton" id="itbuttonalt" onclick="showitsection()">IT Training/Computer Repair</button>
+                <div class="itdunderline" id="itunderlinealt"></div>
+              </div>
+              <div class="homebuttonbox" id="homebuttonboxalt">
+                <br>
+                    <br>
+                <button class="homebutton" id="homebuttonalt" onclick="showhomepage(),hidehomebutton()">
+                    <img class="homeicon" id="homeiconicon" src="portimages/homeico.png">
+                </button>
+              </div>
+          <button class="homemobilebutton" id="homemobilebuttonalt" onclick="showmobilehomepage(),hidemobilehomebutton()">
+            <img class="homemobileicon" id="homemobileiconicon" src="portimages/homeico.png">
+        </button>
+                <h1 class="myname">Jackson Zenisek</h1>
+            </div>
+        </header>
+<!--mobile slide menu section------------------------------------------------------------------------------------------------------------------------------------->
+        <div class="mobilesidemenu" id="mobilesidemenualt">
+            <br>
+                 <br>
+                     <br>
+            <div class="softdboxmobile" id="softdboxmobilealt">
+                <br>
+                    <br>
+                        <br>
+              <button class="softdbuttonmobile" id="softdbuttonmobilealt" onclick="showsoftdsectionmobile()">Software Development</button>
+            </div>
+            <div class="webdboxmobile" id="webdboxmobilealt">
+                <br>
+                    <br>
+                        <br>
+                <button class="webdbuttonmobile" id="webdbuttonmobilealt" onclick="showwebdsectionmobile()">Web Development</button>
+            </div>
+              <div class="itboxmobile" id="itboxmobilealt">
+                <br>
+                    <br>
+                        <br>
+                <button class="itbuttonmobile" id="itbuttonmobilealt" onclick="showitsectionmobile()">IT Training/Computer Repair</button>
+              </div>
+                <div class="linkedinboxmobile" id="linkedinboxmobilealt">
+                    <a href="https://www.linkedin.com/in/jackson-zenisek-23549a1b7/"><img class="linkedinicon" src="portimages/linkedinimg.png"></a>
+                  </div>
+            </div>
+<!---Sections--------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <div class="introbox" id="introboxalt">
+            <h1 class="introheading" id="introheadingalt" onload="maingreeting()"></h1>
+            <p class="biography" id="biographyalt">
+            My name is Jackson Zenisek, and I am currently enrolled at Austin Community College.<br>
+            My current majoris Associate of Science: Computer Science and I once I complete my Associates Degree,<br> 
+            I plan on pursuing a Bachelors Degree in Applied Science: Software Development.<br>
+            <br>
+            I have a passion for web development and software development,<br>
+            I have always been intriqued in the process used to design efficent websites, applications, and processes that benefit companies and clients.<br>
+            Everything you see in my portfolio has been programmed by me. I have created my portfolio to showcase my skills,<br>
+            and the programming knowledge that I have learned over the course of my college carrer,<br>
+            as well as self taught techniques that I have used throughout my programming journey.<br><br>
+            I am confident in my abilites to deliver quality content, and I hope that display myself as a worthy asset to the company that I may work with.
+            </p>
+            <br>
+            <br>
+            <h5 class="educationheading">Education</h5>
+            <p class="educationdescription" id="educationdescriptionalt"><b class="educationdescriptionacc">Austin Community College</b><br><br>Working towards an Associates Degree - A.S. Computer Science<br>GPA: 3.75<br><br>
+                I am currently enrolled at Austin Community College pursuing an Associates Degree in Computer Science.<br> Once I  complete my Associates Degree, I plan on pursuing a Bachelors Degree in Software Development.
+            </p>
+        </div>
+        <div class="itsection" id="itsectionalt">
+            <div class="bttbuttonbox">
+                <button class="bttbutton" id="bttbuttonalt" onclick="backtotop()"><img class="bttbuttonimg" id="bttbuttonimgalt" src="portimages/bttbutton.png"></button>
+            </div>
+            <p class="itheading" id="itheadingalt">IT Training and Computer Repair Experience</p>
+            <br>
+            <br>
+            <div class="certsbox">
+                <h6 class="itcertsheading">Certifications</h6>
+                <a href="https://www.credly.com/badges/281be1c7-80ad-443b-833b-d392c2ee9072"><img class="badges1" id="badges1alt" src="portimages/Digital Badges/ITF+.png"></a>
+                <a href="https://www.credly.com/badges/7f34b417-38e7-402f-8f1b-ae39a7070138"><img class="badges2" id="badges2alt" src="portimages/Digital Badges/A+.png"></a>
+                <a href="https://www.credly.com/badges/f0307ae5-ccd1-4d17-87ed-6fc70eaee551"><img class="badges3" id="badges3alt" src="portimages/Digital Badges/N+.png"></a>
+                <a href="https://www.credly.com/badges/2dd41723-d7a6-462c-b9c7-8cdf0486df20"><img class="badges4" id="badges4alt" src="portimages/Digital Badges/Sec+.png"></a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="compprojects" id="compprojects1">
+                <div class="pcompdescriptionbox" id="pcompdescriptionboxalt">
+                    <div class="pcomppicframe">
+                    <img class="pcomppic" src="portimages/ITprojects/pedrospc.png">
+                    </div>
+                    <p class="pcompdescription" id="pcompdescriptionalt" ><b class="pcompbolddesription">Pedro's Computer</b><br><br>I built my friend Pedro's computer.<br><br><u>Hardware</u><br>PNY Geforce RTX 3070 8GB XLR8 Trple FAN GPU<br>
+                        Intel Core i7 12000K<br>MSI MPG Z690 EDGE WiFi DDR4 ATX<br>Corsair Vengeance RGB Pro 32GB (4x8GB) DDR4 3600mhz<br>ASUS ROG Strix LC II AIO Liquid CPU Cooler<br>Corsair RMX Series RM750x 750 Watt Fully Modular<br>
+                        Seagate Barracuda Q5 500GB M.2 NVME (Windows and application installation)<br>Seagate Barracuda Q5 2TB M.2 NVME (Game installation)<br>Corsair iCUE 4000D RGB Mid-Tower Case ATX<br>Corsair iCUE 120 RGB Fans<br><br>
+                        <u>Operating System</u><br>Windows 11 Home 64bit                  
+                    </p>
+                </div>
+                <div class="mcompdescriptionbox" id="mcompdescriptionboxalt">
+                    <div class="mcomppicframe">
+                        <img class="mcomppic" src="portimages/ITprojects/mattbpc.png">              
+                    </div>
+                    <p class="mcompdescription" id="mcompdescriptionalt"><b class="mcompbolddesription">Matt's Cryptominer</b><br><br>I built my friend Matt's CPU cryptominer, using xmrig to mine Monero.<br><br><u>Hardware</u><br>Cooler Master MasterBox Q300L Micro-ATX Tower<br>
+                        Cable Matters 10Gbps Snagless Cat 6 Ethernet Cable 25 ft<br>ASUS TUF Gaming A520M-PLUS (WiFi) AMD AM4<br>AMD Ryzen 5 5600X 6-core, 12-Thread Unlocked Desktop Processor<br>ID-COOLING FROSTFLOW X 240 CPU Water Cooler AIO Cooler 240mm<br>Timetec 128GB SSD 3D NAND SATA III 6Gb/s 2.5 Inch<br>TEAMGROUP T-FORCE VULCAN Z DDR4 16GB Kit (2x8GB) 3200MHz<br>Thermaltake Smart 500w 80+ Certified PSU<br><br>              
+                    <u>Operating System</u><br>Linux Mint Cinnamon 21
+                    </p>
+                </div>
+            <div class="dcompdescriptionbox" id="dcompdescriptionboxalt">
+            <div class="dcomppicframe">
+                <img class="dcomppic" src="portimages/ITprojects/dannieslaptop.png">
+                <p class="dcompdescription" id="dcompdescriptionalt"><b class="dcompbolddesription">Dannie's Laptop</b><br><br>I reinstalled Windows 10 Home on Dannie's Dell Inspiron 15 3000<br><br></p>
+            </div>
+            </div>
+            <div class="mnrcompdescriptionbox" id="mnrcompdescriptionboxalt">
+                <div class="mnrcomppicframe">
+                    <img class="mnrcomppic" src="portimages/ITprojects/mynetworkrack.png">
+                </div>
+                <p class="mnrcompdescription" id="mnrcompdescriptionalt"><b class="mnrcompbolddesription">My Network System</b><br><br><u>Hardware and Functions</u><br><br>TP-Link AC1200 WIFI Router<br>TP-Link TL-SG3210 8 Port Gb 2SFP Slots Managed Switch<br>
+                x4 RaspberryPi4 4GB; Ad Blocker, VPN, Retro Game Server,<br> Ticketing System/NTP Server<br>TP-Link Tl-SG105E 5 Port Gb Easy Smart Managed Switch<br>2TB NAS Server RAID 1<br>CPU Cryptominer<br>TP-Link Omada Hardware Controller<br>CyberPower 1500VA UPS<br>x3 6 Outlet PDU<br>
+                Raspberry Pico W w DHT 22 Temperature/Humidity Sensor
+            </p>
+            </div>
+            </div>
+        </div>
+        <div class="softdsection" id="softdsectionalt">
+            <p class="softdheading" id="softdheadingalt">Software Development Projects</p>
+            <br>
+            <br>
+            <br>
+            <p class="comingsoon">Coming Soon!</p>
+        </div>
+        <div class="webdsection" id="webdsectionalt">
+            <h3 class="webdheading" id="webdheadingalt">Web Development Projects</h3>
+            <br>
+            <br>
+            <br>
+            <div class="sirzenigamingbox" id="sirzenigamingalt">
+                <div class="sirzenigaminglisting" id="sirzenigaminglistingalt">
+                    <p class="jcsheading" id="jcsgamingheadingalt">John's Coffee Shop</p>
+                    <p class="jcsdescription">2025<br><br>Languages: HTML, CSS, JavaScript<br><br>The John's Coffee Shop project is an inactive, display only website. <br>It is not a live website.<br>Compared to SirZeniGaming, John's Coffee Shop displays my improvement<br>
+                    in front-end web development, including more interactive content with the implication of JavaScript, the use of containers in HTML, and a more neat and organized application display with more detailed CSS.
+                    There is a mobile version as well, (Press F12, then shrink window width to 640px - 1075px).
+                     </p>
+                    <br>
+                    <p class="jcsdescriptionlink" id="jcsdescriptionlinkalt">Website Link:<a class="jcslink" href="index2.html">John's Coffee Shop</a></p>
+                </div>
+                <div class="jcspicsbox" id="sirzenigamingpicsboxalt">
+                    <img class="jcspicture1" id="jcspicture1alt" src="portimages/jcspic1.png">
+                    <img class="jcspicture2" id="jcspicture2alt" src="portimages/jcspic2.png">
+                    <img class="jcspicture3" id="jcspicture3alt" src="portimages/jcspic3.png">
+                    <img class="jcspicture4" id="jcspicture4alt" src="portimages/jcspic4.png">
+                </div>
+            <br>
+            <br>
+            <div class="sirzenigamingbox" id="sirzenigamingalt">
+                <div class="sirzenigaminglisting" id="sirzenigaminglistingalt">
+                    <p class="sirzenigamingheading" id="sirzenigamingheadingalt">SirZeniGaming</p>
+                    <p class="sirzenigamingdescription">2023<br><br>Languages: HTML, CSS, JavaScript<br><br>SirZeniGaming was the very first website that I have ever created. It is a live website.<br> It involves my gameplay content that I have created<br>
+                    a while ago and links are provided to Youtube, Twitch, and Steam.<br> It also has a gaming screen capture gallery, was well as a cinema based theme page. This website was what really allowed me to<br>
+                    start my career, and I have learned so much ever since. <br>Was once an experiement, but it is now a hobby that has become a career.
+                     </p>
+                    <br>
+                    <p class="sirzenigamingdescriptionlink">Website Link:<a class="sirzenigaminglink" href="https://sirzenigaming.com/">SirZeniGaming</a></p>
+                </div>
+                <div class="sirzenigamingpicsbox" id="sirzenigamingpicsboxalt">
+                    <img class="sirzenigamingpicture1" id="sirzenigamingpicture1alt" src="portimages/sirzenigaming1.png">
+                    <img class="sirzenigamingpicture2" id="sirzenigamingpicture2alt" src="portimages/sirzernigaming2.png">
+                    <img class="sirzenigamingpicture3" id="sirzenigamingpicture3alt" src="portimages/sirzenigaming3.png">
+                    <img class="sirzenigamingpicture4" id="sirzenigamingpicture4alt" src="portimages/sirzenigaming4.png">
+                </div>
+                <br>
+                <br>
+                <br>
+                </div>
+        </div>
+    </body>
+</html>

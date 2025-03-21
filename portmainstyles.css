@@ -1,0 +1,1112 @@
+body.mainbody{
+    background-color:rgb(107, 92, 85);
+}
+
+header.selectionheader{
+    background-color:black;
+    height:150px;
+    width:auto;
+    margin:-8px;
+}
+
+div.namebox{
+    height:150px;
+    width:500px;
+    text-align:center;
+}
+
+h1.myname{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    color:white;
+    float:right;
+    margin-top:-100px;
+    margin-right: 100px;
+}
+
+div.homebuttonbox{
+    height:150px;
+    width:200px;
+    float:left;
+    margin-top:-150px;
+    text-align:center;
+}
+
+button.homebutton{
+    border:1px solid transparent;
+    background-color:transparent;
+}
+
+button.homebutton:hover{
+    border:1px solid transparent;
+    background-color:transparent;
+    cursor:pointer;
+    opacity: 90%;
+}
+
+img.homeicon{
+    height:75px;
+    width:75px;
+    display:none;
+}
+
+div.webdbox{
+    height:150px;
+    width:250px;
+    text-align:center;
+    border:1px solid transparent;
+    float:left;
+    margin-top:-150px;
+}
+
+div.softdbox{
+    height:150px;
+    width:300px;
+    text-align:center;
+    border:1px solid transparent;
+    float:left;
+    margin-top:-150px;
+    margin-left:150px;
+}
+
+button.webdbutton{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    transition: 0.3s;
+}
+
+button.webdbutton:hover{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(202, 201, 201);
+    cursor:pointer;
+}
+
+button.softdbutton{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    transition: 0.3s;
+}
+
+button.softdbutton:hover{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(202, 201, 201);
+    cursor:pointer;
+}
+
+div.webdunderline{
+    height:1px;
+    width:150px;
+    background-color:rgb(207, 207, 135);
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+div.softdunderline{
+    height:1px;
+    width:185px;
+    background-color:rgb(207, 207, 135);
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+div.itdunderline{
+    height:1px;
+    width:240px;
+    background-color:rgb(207, 207, 135);
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+button.mobilemenubutton{
+    height:40px;
+    width:55px;
+    border: 1px solid transparent;
+    background-color:transparent;
+    float:left;
+    margin-left:75px;
+    margin-top:-110px;
+    transition: 0.3s;
+}
+
+button.mobilemenubutton:hover{
+    height:40px;
+    width:55px;
+    border:1px solid transparent;
+    background-color:transparent;
+    float:left;
+    margin-left:75px;
+    margin-top:-110px;
+    cursor:pointer;
+}
+
+div.spans1{
+    height:3px;
+    width:35px;
+    background-color:grey;
+    margin-top:-15px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.spans2{
+    height:3px;
+    width:35px;
+    background-color:grey;
+    margin-top:8px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.spans3{
+    height:3px;
+    width:35px;
+    background-color:grey;
+    margin-top:8px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+
+button.mobileexitmenubutton{
+    height:40px;
+    width:55px;
+    border:1px solid transparent;
+    background-color:transparent;
+    float:left;
+    margin-left:75px;
+    margin-top:-110px;
+    display:none;
+}
+
+button.mobileexitmenubutton:hover{
+    height:40px;
+    width:55px;
+    background-color:transparent;
+    float:left;
+    margin-left:75px;
+    margin-top:-110px;
+    cursor:pointer;
+}
+
+div.spans1exit{
+    height:3px;
+    width:35px;
+    background-color:grey;
+    margin-top:-15px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    rotate:45deg;
+}
+
+div.spans2exit{
+    height:3px;
+    width:35px;
+    background-color:grey;
+    margin-top:-2px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    rotate:135deg;
+}
+
+
+img.closeoutmobilemenu{
+    height:50px;
+    width:50px;
+}
+
+
+div.itbox{
+    height:150px;
+    width:300px;
+    text-align:center;
+    float:left;
+    border:1px solid transparent;
+    margin-top:-150px;
+}
+
+button.itbutton{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    transition: 0.3s;
+}
+
+button.itbutton:hover{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(202, 201, 201);
+    cursor:pointer;
+}
+
+div.linkedinbox{
+    float:left;
+    margin-top:-110px;
+    margin-left:75px;
+}
+
+img.linkedinicon{
+    height:75px;
+    width:75px;
+    transition: 0.3s;
+}
+
+img.linkedinicon:hover{
+    height:75px;
+    width:75px;
+    cursor:pointer;
+    opacity:90%;
+}
+
+div.introbox{
+    height:1000px;
+    width:auto;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:center;
+}
+
+h1.introheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    color:white;
+}
+
+p.biography{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;
+}
+
+h5.educationheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:white;
+}
+
+p.educationdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    margin-top:-40px;
+}
+
+b.educationdescriptionacc{
+    font-size:30px;
+}
+
+h6.itcertsheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:white;
+}
+
+div.certsbox{
+    height:500px;
+    width:auto;
+    margin-top:-80px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    display:block;
+}
+
+img.badges1{
+    height:200px;
+    width:200px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+img.badges1:hover{
+    height:200px;
+    width:200px;
+    opacity: 90%;
+    margin-right: 20px;
+}
+
+img.badges2{
+    height:200px;
+    width:200px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+img.badges2:hover{
+    height:200px;
+    width:200px;
+    opacity: 90%;
+    margin-right: 20px;
+}
+
+img.badges3{
+    height:200px;
+    width:200px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+img.badges3:hover{
+    height:200px;
+    width:200px;
+    opacity: 90%;
+    margin-right: 20px;
+}
+
+img.badges4{
+    height:200px;
+    width:200px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+img.badges4:hover{
+    height:200px;
+    width:200px;
+    opacity: 90%;
+    margin-right: 20px;
+}
+
+div.webdsection{
+    height:auto;
+    width:auto;
+    text-align:center;
+    display:none;
+}
+
+h3.webdheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    color:white;
+}
+
+p.jcsheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:85px;
+    color:white;
+    margin-top:-10px;
+}
+
+div.sirzenigamingbox{
+    height:auto;
+    width:auto;
+    border: 5px solid grey;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+p.sirzenigamingheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    color:white;
+    margin-top:-10px;
+}
+
+p.jcsdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    margin-top:-75px;
+}
+
+
+p.sirzenigamingdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    margin-top:-75px;
+}
+
+p.jcsdescriptionlink{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+p.sirzenigamingdescriptionlink{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+a.downloadsirzenigamingfiles{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:black;
+    text-decoration:none;
+}
+
+a.downloadsirzenigamingfiles:hover{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(0, 0, 0); 
+    text-decoration:underline rgb(194, 181, 123);
+    text-underline-offset: 5px;
+
+}
+
+div.jcspicsbox{
+    height:350px;
+    width:700px;
+    border:5px solid rgb(116, 116, 116);
+    float:right;
+    margin-top:-425px;
+    margin-right:400px;
+}
+
+div.sirzenigamingpicsbox{
+    height:350px;
+    width:700px;
+    border:5px solid rgb(116, 116, 116);
+    float:right;
+    margin-top:-425px;
+    margin-right:400px;
+}
+
+img.jcspicture1{
+    height:350px;
+    width:700px;
+    transition:ease-in-out;
+}
+
+img.jcspicture2{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.jcspicture3{
+    height:350px;
+    width:250px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:black;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.jcspicture4{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+
+
+img.sirzenigamingpicture1{
+    height:350px;
+    width:700px;
+    transition:ease-in-out;
+}
+
+img.sirzenigamingpicture2{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.sirzenigamingpicture3{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.sirzenigamingpicture4{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+a.jcslink{
+    color:blue;
+}
+
+a.sirzenigaminglink{
+    color:blue;
+}
+
+a.sirzenigaminglink:hover{
+    color:rgb(0, 82, 175);
+}
+
+div.sirzenigaminglisting{
+    height:500px;
+    width:700px;
+    margin-left:200px;
+}
+
+div.softdsection{
+    height:800px;
+    width:auto;
+    text-align:center;
+    display:none;
+}
+
+p.comingsoon{
+    font-family:'Times New Roman', Times, serif;
+    font-size:70px;
+    color:white;
+}
+
+p.softdheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    color:white;
+}
+
+div.itsection{
+    height:5500px;
+    width:auto;
+    display:none;
+}
+
+p.itheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    color:white;
+    text-align:center;
+}
+
+div.pcompdescriptionbox{
+    height:1200px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
+div.pcomppicframe{
+    height:600px;
+    width:450px;
+    border:5px solid grey;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.pcomppic{
+    height:600px;
+    width:450px;
+}
+
+b.pcompbolddesription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    color:white;
+}
+
+p.pcompdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+div.compprojects{
+    height:auto;
+    width:auto;
+}
+
+div.mcompdescriptionbox{
+    height:1200px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
+div.mnrcomppicframe{
+    height:600px;
+    width:450px;
+    border:5px solid grey;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.mcomppic{
+    height:600px;
+    width:450px;
+}
+
+b.mcompbolddesription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    color:white;
+}
+
+p.mcompdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+div.dcompdescriptionbox{
+    height:800px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
+div.dcomppicframe{
+    height:600px;
+    width:450px;
+    border:5px solid grey;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.dcomppic{
+    height:600px;
+    width:450px;
+}
+
+b.dcompbolddesription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    color:white;
+}
+
+p.dcompdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+div.mnrcompdescriptionbox{
+    height:1200px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:150px;
+    display:block;
+    text-align:center;
+}
+
+div.mynrcomppicframe{
+    height:600px;
+    width:450px;
+    border:5px solid grey;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.mnrcomppic{
+    height:600px;
+    width:450px;
+}
+
+p.mnrcompdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+b.mnrcompbolddesription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    color:white;
+}
+
+div.bttbuttonbox{
+    position: fixed;
+    padding: 15px;
+    z-index: 99;
+    height:150px;
+    width: 150px;
+    bottom: 20px;
+    right: 30px;
+    text-align:center;
+}
+
+button.bttbutton{
+    background-color:transparent;
+    border: 1px solid transparent;
+    position: fixed;
+    z-index: 99;
+    height:100px;
+    width:100px;
+    bottom: 75px;
+    right: 75px;
+    border-radius:20px;
+    text-align:center;
+    display:none;
+}
+
+button.bttbutton:hover{
+    background-color:transparent;
+    border: 1px solid transparent;
+    position: fixed;
+    z-index: 99;
+    height:100px;
+    width: 100px;
+    bottom: 75px;
+    right: 75px;
+    cursor:pointer;
+}
+
+img.bttbuttonimg{
+    height:100px;
+    width:100px;
+}
+
+div.mobilesidemenu{
+    height:1400px;
+    width:550px;
+    background-color: grey;
+    position:absolute;
+    margin-top: 8px;
+    margin-left:-8px;
+    left:0;
+    transition-duration:1s;
+    display:none;
+}
+
+div.softdboxmobile{
+    height:150px;
+    width:300px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.softdboxmobile:hover{
+    height:150px;
+    width:300px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.webdboxmobile{
+    height:150px;
+    width:300px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:25px;
+}
+
+div.itboxmobile{
+    height:150px;
+    width:500px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:25px;
+}
+
+div.linkedinboxmobile{
+    height:150px;
+    width:300px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:50px;
+}
+
+button.softdbuttonmobile{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px; 
+    transition: 0.3s;
+}
+
+button.softdbuttonmobile:hover{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(46, 46, 46);
+    cursor:pointer;
+}
+
+button.webdbuttonmobile{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    transition: 0.3s;
+}
+
+button.webdbuttonmobile:hover{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px; 
+    color:rgb(46, 46, 46);
+    cursor:pointer;
+}
+
+button.itbuttonmobile{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    transition: 0.3s;
+}
+
+button.itbuttonmobile:hover{
+    height:50px;
+    width:auto;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:rgb(46, 46, 46);
+    cursor:pointer;
+}
+
+button.homemobilebutton{
+    height:auto;
+    width:auto;
+    float:left;
+    margin-top:-120px;
+    margin-left:200px;
+    border:1px solid transparent;
+    background-color:transparent;
+    display:none;
+}
+
+button.homemobilebutton:hover{
+    height:auto;
+    width:auto;
+    margin-top:-120px;
+    margin-left:200px;
+    border:1px solid transparent;
+    background-color:transparent;
+    opacity: 90%;
+    cursor:pointer;
+}
+
+img.homemobileicon{
+    height:75px;
+    width:75px;
+}
+
+
+
+
+/*Media querries*/
+
+@media (max-width:1212px){
+    #biographyalt,#educationdescriptionalt{
+        font-size:18px;
+    }
+}
+
+@media (min-width: 1575px){
+    #mobilemenubuttonalt{
+        display:none;
+    }
+}
+
+@media (max-width: 1575px){
+    #softdbuttonalt,#webdbuttonalt,#linkedinboxalt,#itbuttonalt{
+        display:none;
+    }
+}
+
+@media (min-width: 1575px){
+    #mobilesidemenualt{
+        right: 0;
+    }
+}
+
+@media (min-width:1575px){
+    #homemobilebuttonalt{
+        display:none;
+    }
+}
+
+@media (max-width:1575px){
+    #homebuttonboxalt{
+        margin-left:-500px;
+    }
+}
+
+@media (max-width:1575px){
+    #softdboxalt,#webdboxalt,#itboxalt{
+        display:none;
+    }
+}
+
+@media (max-width: 1088px){
+    #itheadingalt{
+        font-size:60px;
+    }
+}
+
+@media (max-width:1088px){
+    #badges1alt,#badges2alt,#badges3alt,#badges4alt{
+        height:125px;
+        width:125px;
+    }
+}
+
+@media(max-width: 828px){
+    #bttbuttonimgalt{
+        height:75px;
+        width:75px;
+    }
+}
+
+@media(max-width: 828px){
+    #pcompdescriptionboxalt,#mcompdescriptionboxalt,#dcompdescriptionboxalt,#mnrcompdescriptionboxalt{
+        margin-left:-40px;
+        width:700px;
+    }
+}
+
+
+
+@media (max-width:828px){
+    #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt{
+        font-size:18px;
+    }
+}
+
+@media (max-width:2100px){
+    #sirzenigamingpicsboxalt{
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:50px;
+        display:block;
+        float:none;
+    }
+}
+
+@media (max-width:2100px){
+    #sirzenigaminglistingalt{
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }
+}
+
+@media (max-width:814px){
+    #webdheadingalt{
+        font-size:70px;
+    }
+}
+
+@media (max-width:814px){
+    #jcsgamingheadingalt{
+        font-size:70px;
+    }
+}
+
+@media (max-width:814px){
+    #sirzenigamingheadingalt{
+        font-size:70px;
+    }
+}
+
+@media (max-width:814px){
+    #sirzenigamingpicsboxalt{
+        height:200px;
+        width:400px;
+        text-align:center;
+        margin-top:50px;
+        float:none;
+    }
+}
+@media (max-width:814px){
+    #jcspicture1alt,#jcspicture2alt,#jcspicture3alt,#jcspicture4alt{
+        height:200px;
+        width:400px;
+    }
+}
+
+@media (max-width:814px){
+    #jcspicture3alt{
+        height:200px;
+        width:125px;
+    }
+}
+
+@media (max-width:814px){
+    #sirzenigamingpicture1alt,#sirzenigamingpicture2alt,#sirzenigamingpicture3alt,#sirzenigamingpicture4alt{
+        height:200px;
+        width:400px;
+    }
+}
+
+@media (max-width:814px){
+    #sirzenigaminglistingalt{
+        width:500px;
+    }
+}
+@media (max-width:814px){
+    #softdheadingalt{
+        font-size:70px;
+    }
+}
+
+@media (max-width:814px){
+    #jcsdescriptionlinkalt{
+        margin-top:-30px;
+    }
+}

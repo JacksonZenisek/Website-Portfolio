@@ -1,0 +1,525 @@
+<!--The HTML file of John's Coffee Shop-->
+<!DOCTYPE html>
+<html>
+<!--The head of the html file, contains the connections to the CSS and JavaScript file, the title and icon of the webpage, anhd the meta tags-->
+    <head>
+        <title>John's Coffee Shop</title>
+        <link href="jcsstyles.css" rel="stylesheet">
+        <script src="jcsactions.js"></script>
+        <link rel="icon" type="image/x-icon" href="sitepictures/storeicon.png">
+        <meta charset="UTF-8" viewwidth=device-width, initial-scale="1.0">
+        <meta name="Jackson Zenisek" content="John's Coffee Shop">
+        <meta name="An example of Jackson's work" content="Languages Used: HTML, CSS, JavaScript.">
+    </head>
+<!--The background body of the coffee shop-->
+    <body class="main">
+<!--The main interactive box of the coffee shop-->
+        <div class="mainmenubox" id="mainmenuboxalt">
+            <header class="headingbox">
+                <div class="logsignbuttons">
+                <button class="loginbutton" id="loginbuttonalt" onclick="document.location='jcslogin.html'">Sign In</button>
+                </div>
+                <img class="mainbanner" id="mainbanneralt" src="sitepictures/jcsbanner.png">
+            </header>
+            <div class="mainselectionboxouter" id="mainselectionboxouteralt">
+                    <button class="homebutton" id="homebuttonalt" onclick="showhomesection(),lowerfooter()">Home</button>
+                    <button class="menubutton" id="menubuttonalt" onclick="showmenusection(),liftfooter()">Menu</button>
+                    <button class="locationsbutton" id="locationsbuttonalt" onclick="showlocationssection(),liftfooter()">Locations</button>
+                    <button class="aubutton" id="aubuttonalt" onclick="showausection(),liftfooter()">About Us</button>
+            </div>
+            <div class="homebox" id="homeboxalt">
+                <div class="slidesbox" id="slidesboxalt" onload="slidestimer()">
+                    <img class="image1" id="image1alt" src="sitepictures/coffeeslide1.png">
+                    <h1 class="bannerheading1" id="bannerheading1alt">Enjoy our freshly brewed classic hot coffee!</h1>
+                    <img class="image2" id="image2alt" src="sitepictures/drink-lemonade.png">
+                    <h2 class="bannerheading2" id="bannerheading2alt">Try our lemonade to <br>quench your thirst!</h2>
+                    <img class="image3" id="image3alt" src="sitepictures/icedtea.png">
+                    <h3 class="bannerheading3" id="bannerheading3alt">Our iced tea is made <br>to perfection!</h3>
+                    <img class="image4" id="image4alt" src="sitepictures/smoothiepic.png">
+                    <h4 class="bannerheading4" id="bannerheading4alt">Smoothies come in <br>many flavors!</h4>
+                </div>
+                <br>
+                <div class="mainunderdiv" id="mainunderdivalt">
+                    <img class="featuredbanner" id="featuredbanneralt" src="sitepictures/maindivunderbanner.png">
+                </div>
+            </div>
+            <div class="menubox" id="menuboxalt">
+                <div class="dealsbox" id="dealsboxalt">
+                    <img class="salepic" id="salepicalt" src="sitepictures/smoothiesale.png">
+                    <div class="drinkselectionbox" id="drinkselectionboxalt">
+                        <img class="beveragestitle" src="sitepictures/beverages.png">
+                        <br>
+                        <br>
+                        <div class="dot1" id="dot1alt"></div>
+                        <button type="button" class="classics" id="classicsalt" onclick="showclassics(),showclassicdrinks()">Classic Coffee</button>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="dot2" id="dot2alt"></div>
+                        <button type="button" class="favorites" id="favoritesalt" onclick="showjf(),showjfdrinks()">John's Favorites</button>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="dot3" id="dot3alt"></div>
+                        <button type="button" class="tea" id="lemonadealt" onclick="showlemons(),showlemonadedrinks()">Lemonade</button>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="dot4" id="dot4alt"></div>
+                        <button type="button" class="tea" id="teaalt" onclick="showteas(),showteadrinks()">Tea</button>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="dot5" id="dot5alt"></div>
+                        <button type="button" class="smoothie" id="smoothiealt" onclick="showsmoothies(),showsmoothiesdrinks()">Smoothies</button>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="dot6" id="dot6alt"></div>
+                        <button type="button" class="cocoa" id="cocoaalt" onclick="showcocoa(),showhotcocoadrinks()">Hot Cocoa</button>
+                    </div>
+                </div>
+                <div class="classicdrinksbox" id="classicdrinksboxalt">
+                    <img class="classiccoffeeheading" id="classiccoffeeheadingalt" src="sitepictures/ClassicCoffee.png">
+                    <div class="classicbox1" id="classicbox1alt">
+                        <div class="hotlattediv" id="hotlattedivalt">
+                        <img class="hotlatte" id="hotlattealt" src="sitepictures/hotlattepic.png">
+                        <p class="hotlatteheading" id="hotlatteheadingalt"><b>Hot Latte</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso with 2% Steamed Milk</p>
+                        </div>
+                        <div class="icedlattediv" id="icedlattedivalt">
+                        <img class="icedlatte" id="icedlattealt" src="sitepictures/icedlatte.png">
+                        <p class="icedlatteheading" id="icedlatteheadingalt"><b>Iced Latte</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso with 2% Milk</p>
+                        </div>
+                        <button class="hotlattebutton" id="hotlattebuttonalt" onclick="showHotLatte(),switchtoblue2hotlatte()">Hot</button>
+                        <button class="icedlattebutton" id="icedlattebuttonalt" onclick="showIcedLatte(),switchtoblue2icedlatte()">Iced</button>
+                    </div>
+                    <div class="classicbox2" id="classicbox2alt">
+                        <div class="hotmochadiv" id="hotmochadivalt">
+                            <img class="hotmocha" id="hotmochaalt" src="sitepictures/hotmocha.png">
+                            <p class="hotmochaheading" id="hotmochaheadingalt"><b>Hot Mocha</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso with Chocolate Milk</p>
+                        </div>
+                        <div class="icedmochadiv" id="icedmochadivalt">
+                            <img class="icedmocha" id="icedmochaalt" src="sitepictures/icedmocha.png">
+                            <p class="icedmochaheading" id="icedmochaheadingalt"><b>Iced Mocha</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso with Chocolate Milk</p>
+                        </div>
+                        <button class="hotmochabutton" id="hotmochabuttonalt" onclick="showHotMocha(),switchtoblue2hotmocha()">Hot</button>
+                        <button class="icedmochabutton" id="icedmochabuttonalt" onclick="showIcedmocha(),switchtoblue2icedmocha()">Iced</button>
+                    </div>
+                    <div class="classicbox3" id="classicbox3alt">
+                        <div class="hotamericanodiv" id="hotamericanodivalt">
+                            <img class="hotamericano" id="hotamericanoalt" src="sitepictures/hotamericano.png">
+                            <p class="hotamericanoaheading" id="hotamericanoheadingalt"><b>Hot Americano</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso with Hot Water</p>
+                        </div>
+                        <div class="icedamericanodiv" id="icedamericanodivalt">
+                            <img class="icedamericano" id="icedamericanoalt" src="sitepictures/icedamericano.png">
+                            <p class="icedamericanoaheading" id="icedamericanoheadingalt"><b>Iced Americano</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso with Ice Water</p>
+                        </div>
+                        <button class="hotamericanobutton" id="hotamericanobuttonalt" onclick="showHotAmericano(),switchtoblue2hotamericano()">Hot</button>
+                        <button class="icedamericanobutton" id="icedamericanobuttonalt" onclick="showIcedAmericano(),switchtoblue2icedamericano()">Iced</button>
+                    </div>
+                    <div class="classicbox4" id="classicbox4alt">
+                        <div class="hotcappuccinodiv" id="hotcappuccinodivalt">
+                            <img class="hotcappuccino" id="hotcappuccinoalt" src="sitepictures/hotcappuccino.png">
+                            <p class="hotamericanoaheading" id="hotamericanoheadingalt"><b>Hot Cappuccino</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso, Steamed Milk, Milk Foam</p>
+                        </div>
+                        <div class="icedcappuccinodiv" id="icedcappuccinodivalt">
+                            <img class="icedcappuccino" id="icedcappuccinoalt" src="sitepictures/icedcappucciono.png">
+                            <p class="icedcappuccinoaheading" id="icedcappuccinoaheadingalt"><b>Iced Cappuccino</b><br>S:$2.50/M:$4.00/L:$6.00<br>Expresso, Milk, Milk Foam</p>
+                        </div>
+                        <button class="hotcappuccinobutton" id="hotcappuccinobuttonalt" onclick="showHotCappuccino(),switchtoblue2hotcappuccino()">Hot</button>
+                        <button class="icedcappuccinobutton" id="icedcappuccinobuttonalt" onclick="showIcedCappuccino(),switchtoblue2icedcappuccino()">Iced</button>
+                    </div>
+                    <div class="classicboxtogglebuttonsdiv" id="classicboxtogglebuttonsdivalt">
+                        <button class="classicprevious" id="classicpreviousalt">Previous</button>
+                        <button class="classicnext" id="classicnextalt">Next</button>
+                    </div>
+                </div>
+                <div class="jfdrinksbox" id="jfdrinksboxalt">
+                    <img class="jfheading" id="jfheadingalt" src="sitepictures/johnsfavoritess.png">
+                    <div class="jfbox1" id="jfbox1alt">
+                        <div class="hotcarameldelightcoffeediv" id="hotcarameldelightcoffeedivalt">
+                            <img class="hotcarameldelightcoffee" id="hotcarameldelightcoffee" src="sitepictures/hotcaramelcoffee.png">
+                            <p class="hotcarameldelightheading" id="hotcarameldelightheadingalt"><b>Hot Caramel Delight</b><br>S:$3.50/M:$5.00/L:$6.50<br>Caramel, Expresso, Steamed Milk</p>
+                        </div>
+                        <div class="icedcarameldelightcoffeediv" id="icedcarameldelightcoffeedivalt">
+                            <img class="icedcarameldelightcoffee" src="sitepictures/icedcaramelcoffee.png">
+                            <p class="icedcarameldelightheading" id="icedcarameldelightheadingalt"><b>Iced Caramel Delight</b><br>S:$3.50/M:$5.00/L:$6.50<br>Caramel, Expresso, 2% Milk</p>
+                        </div>
+                        <button class="hotcarameldelightbutton" id="hotcarameldelightbuttonalt" onclick="showHotCaramelDelight(),switchtoblue2hotcarameldelight()">Hot</button>
+                        <button class="icedcarameldelightbutton" id="icedcarameldelightbuttonalt" onclick="showIcedCaramelDelight(),switchtoblue2icedcarameldelight()">Iced</button>
+                    </div>
+                    <div class="jfbox2" id="jfbox2alt">
+                        <div class="hotcinnamontwistercoffeebox" id="hotcinnamontwistercoffeeboxalt">
+                            <img class="hotcinnamontwister" src="sitepictures/hotcinnamoncoffee.png">
+                            <p class="hotcinnamontwisterheading" id="hotcinnamontwisterheadingalt"><b>Hot Cinnamon Twister</b><br>S:$3.50/M:$5.00/L:$6.50<br>Cinnamon, Expresso, Steamed Milk</p>
+                        </div>
+                        <div class="icedcinnamontwistercoffeebox" id="icedcinnamontwistercoffeeboxalt">
+                            <img class="icedcinnamontwister" src="sitepictures/icedcinnamoncoffee.png">
+                            <p class="icedcinnamontwisterheading" id="icedcinnamontwisterheadingalt"><b>Iced Cinnamon Twister</b><br>S:$3.50/M:$5.00/L:$6.50<br>Cinnamon, Expresso, 2% Milk</p>
+                        </div>
+                        <button class="hotcinnamontwisterbutton" id="hotcinnamontwisterbuttonalt" onclick="showHotCinnamonTwister(),switchtoblue2hotcinnamontwister()">Hot</button>
+                        <button class="icedcinnamontwisterbutton" id="icedcinnamontwisterbuttonalt" onclick="showIcedCinnamonTwister(),switchtoblue2icedcinnamontwister()">Iced</button>
+                    </div>
+                    <div class="jfbox3" id="jfbox3alt">
+                        <div class="hotvanillamagiccoffeebox" id="hotvanillamagiccoffeeboxalt">
+                            <img class="hotvanillamagic" id="hotvanillamagicalt" src="sitepictures/hotvanillacoffee.png">
+                            <p class="hotvanillamagicheading" id="hotvanillamagicheadingalt"><b>Hot Vanilla Magic</b><br>S:$3.50/M:$5.00/L:$6.50<br>Vanilla, Expresso, Steamed Milk</p>
+                        </div>
+                        <div class="icedvanillamagicbox" id="icedvanillamagicboxalt">
+                            <img class="icedvanillamagic" id="icedvanillamagicalt" src="sitepictures/icedvanillacoffee.png">
+                            <p class="icedvanillamagicheading" id="icedvanillamagicheadingalt"><b>Iced Vanilla Magic</b><br>S:$3.50/M:$5.00/L:$6.50<br>Vanilla, Expresso, 2% Milk</p>
+                        </div>
+                        <button class="hotvanillamagicbutton" id="hotvanillamagicbuttonalt" onclick="showHotVanillaMagic(),switchtoblue2hotvanillamagic()">Hot</button>
+                        <button class="icedvanillamagicbutton" id="icedvanillamagicbuttonalt" onclick="showIcedVanillaMagic(),switchtoblue2icedvanillamagic()">Iced</button>
+                    </div>
+                    <div class="jfbox4" id="jfbox4alt">
+                        <div class="hothazelnutcoffeebox" id="hothazelnutcoffeeboxalt">
+                            <img class="hazelnutcoffee" id="hazelnutcoffeealt" src="sitepictures/hothazelnutcoffee.png">
+                            <p class="hothazelnutsunriseheading" id="hothazelnutsunriseheadingalt"><b>Hot Hazelnut Sunrise</b><br>S:$3.50/M:$5.00/L:$6.50<br>Hazelnut Syrup, Expresso, Steamed Milk</p>
+                        </div>
+                        <div class="icedhazelnutcoffeebox" id="icedhazelnutcoffeeboxalt">
+                            <img class="icedhazelnutcoffee" id="icedhazelnutcoffeealt" src="sitepictures/icedhazelnutcoffee.png">
+                            <p class="icedhazelnutsunriseheading" id="icedhazelnutsunriseheadingalt"><b>Iced Hazelnut Sunrise</b><br>S:$3.50/M:$5.00/L:$6.50<br>Hazelnut Syrup, Expresso, 2% Milk</p>
+                        </div>
+                        <button class="hothazelnutsunrisebutton" id="hothazelnutsunrisebuttonalt" onclick="showHotHazelnutSunsrise(),switchtoblue2hothazelnutsunrise()">Hot</button>
+                        <button class="icedhazelnutsunrisebutton" id="icedhazelnutsunrisebuttonalt" onclick="showIcedHazelnutSunsrise(),switchtoblue2icedhazelnutsunrise()">Iced</button>
+                    </div>
+                    <div class="jfboxtogglebuttonsdiv" id="jfboxtogglebuttonsdivalt">
+                        <button class="jfprevious" id="jfpreviousalt">Previous</button>
+                        <button class="jfnext" id="jfnextalt">Next</button>
+                    </div>
+                </div>
+                <div class="lemonadedrinksbox" id="lemonadedrinksboxalt">
+                    <img class="lemonadeheading" id="lemonadeheadingalt" src="sitepictures/lemonades.png">
+                    <div class="lemonbox1" id="lemonbox1alt">
+                        <img class="classiclemonade" id="classiclemonadealt" src="sitepictures/classiclemonade.png">
+                        <p class="icedclassiclemonadeheading" id="icedclassiclemonadeheadingalt"><b>Iced Classic Lemonade</b><br>S:$2.50/M:$4.00/L:$6.00<br>Original Flavor Lemonade</p>
+                    </div>
+                    <div class="lemonbox2" id="lemonbox2alt">
+                        <img class="strawberrylemonade" id="strawberrylemonadealt" src="sitepictures/strawberrylemonade.png">
+                        <p class="icedclassiclemonadeheading" id="icedclassiclemonadeheadingalt"><b>Iced Strawberry Lemonade</b><br>S:$2.50/M:$4.00/L:$6.00<br>Strawberry Flavored Lemonade</p>
+                    </div>
+                    <div class="lemonbox3" id="lemonbox3alt">
+                        <img class="raspberrylemonade" id="raspberrylemonadealt" src="sitepictures/raspberrylemonade.png">
+                        <p class="icedraspberrylemonadeheading" id="icedraspberrylemonadeheadingalt"><b>Iced Blue Raspberry Lemonade</b><br>S:$2.50/M:$4.00/L:$6.00<br>Blue Raspberry Flavored Lemonade</p>
+                    </div>
+                    <div class="lemonbox4" id="lemonbox4alt">
+                        <img class="peachlemonade" id="peachlemonadealt" src="sitepictures/peachlemonade.png">
+                        <p class="icedpeachlemonadeheading" id="icedpeachlemonadeheadingalt"><b>Iced Peach Lemonade</b><br>S:$2.50/M:$4.00/L:$6.00<br>Peach Flavored Lemonade</p>
+                    </div>
+                    <div class="lemonadetogglebuttonsdiv" id="lemonadetogglebuttonsdivalt">
+                        <button class="lemonadeprevious" id="lemonadepreviousalt">Previous</button>
+                        <button class="lemonadenext" id="lemonadenextalt">Next</button>
+                    </div>
+                </div>
+                <div class="teadrinksbox" id="teadrinksboxalt">
+                    <img class="teaheading" id="teaheadingalt" src="sitepictures/icedteas.png">
+                    <div class="teabox1" id="teabox1alt">
+                        <div class="hotblackteabox" id="hotblackteaboxalt">
+                            <img class="hotblacktea" id="hotblackteaalt" src="sitepictures/blacktea.png">
+                            <p class="hotblackteaheading" id="hotblackteaheadingalt"><b>Hot Black Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br>Original Hot Black Tea</p>
+                        </div>
+                        <div class="icedblackteabox" id="icedblackteaboxalt">
+                            <img class="icedblacktea" id="icedblackteaalt" src="sitepictures/icedblacktea.png">
+                            <p class="icedblackteaheading" id="icedblackteaheadingalt"><b>Iced Black Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br>Original Iced Black Tea</p>
+                        </div>
+                        <button class="hotblackteabutton" id="hotblackteabuttonalt" onclick="showHotBlackTea(),switchtoblue2hotblacktea()">Hot</button>
+                        <button class="icedblackteabutton" id="icedblackteabuttonalt" onclick="showIcedBlackTea(),switchtoblue2icedblacktea()">Iced</button>
+                    </div>
+                    <div class="teabox2" id="teabox2alt">
+                        <div class="hotgreenteabox" id="hotgreenteaboxalt">
+                            <img class="hotgreentea" id="hotgreenteaalt" src="sitepictures/hotgreentea.png">
+                            <p class="hotgreenteaheading" id="hotgreenteaheadingalt"><b>Hot Green Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br>Original Hot Green Tea</p>
+                        </div>
+                        <div class="icedgreenteabox" id="icedgreenteaboxalt">
+                            <img class="icedgreentea" id="icedgreenteaalt" src="sitepictures/icedgreentea.png">
+                            <p class="icedgreenteaheading" id="icedgreenteaheadingalt"><b>Iced Green Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br>Original Iced Green Tea</p>
+                        </div>
+                        <button class="hotgreenteabutton" id="hotgreenteabuttonalt" onclick="showHotGreenTea(),switchtoblue2hotgreentea()">Hot</button>
+                        <button class="icedgreenteabutton" id="icedgreenteabuttonalt" onclick="showIcedGreenTea(),switchtoblue2icedgreentea()">Iced</button>
+                    </div>
+                    <div class="teabox3" id="teabox3alt">
+                        <div class="hotraspberryteabox" id="hotraspberryteaboxalt">
+                            <img class="hotraspberrytea" id="hotraspberryteaalt" src="sitepictures/hotraspberrytea.png">
+                            <p class="hotraspberryteateaheading" id="hotraspberryteaheadingalt"><b>Hot Raspberry Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br> Hot Tea with Raspberry</p>
+                        </div>
+                        <div class="icedraspberryteabox" id="icedraspberryteaboxalt">
+                            <img class="icedraspberrytea" id="icedraspberryteaalt" src="sitepictures/icedraspberrytea.png">
+                            <p class="icedraspberryteateaheading" id="icedraspberryteaheadingalt"><b>Iced Raspberry Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br> Iced Tea with Raspberry</p>
+                        </div>
+                        <button class="hotraspberryteabutton" id="hotraspberryteabuttonalt" onclick="showHotRaspberryTea(),switchtoblue2hotraspberrytea()">Hot</button>
+                        <button class="icedgreenteabutton" id="icedraspberryteabuttonalt" onclick="showIcedRaspberryTea(),switchtoblue2icedraspberrytea()">Iced</button>
+                    </div>
+                    <div class="teabox4" id="teabox4alt">
+                        <div class="hotstrawberryteabox" id="hotstrawberryteaboxalt">
+                            <img class="hotstrawberrytea" id="hotstrawberryteaalt" src="sitepictures/hotstrawberrytea.png">
+                            <p class="hotstrawberryteaheading" id="hotstrawberryteaeadingalt"><b>Hot Strawberry Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br> Hot Tea with Strawberry</p>
+                        </div> 
+                        <div class="icedstrawberryteabox" id="icedstrawberryteaboxalt">
+                            <img class="icedstrawberrytea" id="icedstrawberryteaalt" src="sitepictures/icedstrawberrytea.png">
+                            <p class="icedstrawberryteateaheading" id="icedstrawberryteateaheadingalt"><b>Iced Strawberry Tea</b><br>S:$2.50/M:$4.00/L:$6.00<br> Iced Tea with Strawberry</p>
+                        </div>
+                        <button class="hotstrawberryteabutton" id="hotstrawberryteabuttonalt" onclick="showHotStrawberryTea(),switchtoblue2hotstrawberrytea()">Hot</button>
+                        <button class="icedstrawberryteabutton" id="icedstrawberryteabuttonalt" onclick="showIcedStrawberryTea(),switchtoblue2icedstrawberrytea()">Iced</button>
+                    </div>
+                    <div class="teatogglebuttonsdiv" id="teatogglebuttonsdivalt">
+                        <button class="teaprevious" id="teapreviousalt">Previous</button>
+                        <button class="teanext" id="teanextalt">Next</button>
+                    </div>
+                </div>
+                    <div class="smoothiedrinksbox" id="smoothiedrinksboxalt">
+                        <img class="smoothieheading" id="smoothieheadingalt" src="sitepictures/smoothies.png">
+                        <div class="smoothiebox1" id="smoothiebox1alt">
+                            <img class="mangomadnesssmoothie" id="mangomadnesssmoothiealt" src="sitepictures/mangomadness.png">
+                            <p class="mangomadnessteaheading" id="mangomadnessteaheadingalt"><b>Mango Madness</b><br>S:$3.00/M:$4.50/L:$6.50<br>Mango, Banana, Turmeric, Juice</p>
+                        </div>
+                        <div class="smoothiebox2" id="smoothiebox2alt">
+                            <img class="wonderfulpinkdelight" id="wonderfulpinkdelightalt" src="sitepictures/wonderfulpinkdelight.png">
+                            <p class="wonderfulpinkdelightheading" id="wonderfulpinkdelightheadingalt"><b>Wonderful Pink Delight</b><br>S:$3.00/M:$4.50/L:$6.50<br>Strawberry, Cherry, Vanilla</p>
+                        </div>
+                        <div class="smoothiebox3" id="smoothiebox3alt">
+                            <img class="bluemagicsmoothie" id="bluemagicsmoothiealt" src="sitepictures/bluemagicsmoothie.png">
+                            <p class="bluemagicheading" id="bluemagicheadingalt"><b>Blue Magic</b><br>S:$3.00/M:$4.50/L:$6.50<br>Blueberry, Raspberry, Pomegranate, Juice</p>
+                        </div>
+                        <div class="smoothiebox4" id="smoothiebox4alt">
+                            <img class="greenmonster" id="greenmonsteralt" src="sitepictures/greenmonster.png">
+                            <p class="greenmonsterheading" id="greenmonsterheadingalt"><b>Green Monster</b><br>S:$3.00/M:$4.50/L:$6.50<br>Apple, Avocado, Spinach, Juice</p>
+                        </div>
+                        <div class="smoothietogglebuttonsdiv" id="smoothietogglebuttonsdivalt">
+                            <button class="smoothieprevious" id="smoothiepreviousalt">Previous</button>
+                            <button class="smoothienext" id="smoothienextalt">Next</button>
+                        </div>
+                    </div>
+                        <div class="cocoadrinksbox" id="cocoadrinksboxalt">
+                            <img class="cocoaheading" id="cocoaheadingalt" src="sitepictures/hotcocoas.png">
+                            <div class="cocoabox1" id="cocoabox1alt">
+                                <img class="originalcocoa" id="originalcocoaalt" src="sitepictures/originalcocoa.png">
+                                <p class="originalhotcocoa" id="originalhotcocoaalt"><b>Original Hot Cocoa</b><br>S:$2.50/M:$4.00/L:$6.00<br>Original Hot Cocoa</p>
+                            </div>
+                            <div class="cocoabox2" id="cocoabox2alt">
+                                <img class="hotvanillacocoa" id="hotvanillacocoaalt" src="sitepictures/hotvanillacocoa.png">
+                                <p class="vanillahotcocoa" id="vanillahotcocoaalt"><b>Hot Vanilla Cocoa</b><br>S:$2.50/M:$4.00/L:$6.00<br>Hot Cocoa with Vanilla</p>
+                            </div> 
+                            <div class="cocoabox3" id="cocoabox3alt">
+                                <img class="hotcaramelcocoa" id="hotcaramelcocoaalt" src="sitepictures/hotcaramelhotcocoa.png">
+                                <p class="hotcaramelcocoa" id="hotcaramelcocoaalt"><b>Hot Caramel Cocoa</b><br>S:$2.50/M:$4.00/L:$6.00<br>Hot Cocoa with Caramel</p>
+                            </div>
+                            <div class="cocoabox4" id="cocoabox4alt">
+                                <img class="hotwhitechocolatecocoa" id="hotwhitechocolatecocoaalt" src="sitepictures/hotwhitechocolatecocoa.png">
+                                <p class="hotwhitechocolatecocoa" id="hotwhitechocolatecocoaalt"><b>Hot White Chocolate Cocoa</b><br>S:$2.50/M:$4.00/L:$6.00<br>Hot Cocoa with White Chocolate</p>
+                            </div>
+                            <div class="cocoatogglebuttonsdiv" id="cocoatogglebuttonsdivalt">
+                                <button class="cocoaprevious" id="cocoapreviousalt">Previous</button>
+                                <button class="cocoanext" id="cocoanextalt">Next</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="locationsbox" id="locationsboxalt">
+                    <iframe class="map" id="mapalt" src="https://maps.google.com/maps?q=40.483499,-123.143231&output=embed"></iframe>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="location" id="locationalt">Shop address: 00000 nonexistant Rd, nonexistant, CA, 00000<br>
+                    <br> Shop Hours:
+                    <ul class="shophourslist">
+                        <li>Monday- Friday: 6:00am - 8:00pm</li>
+                        <br>
+                        <li>Saturday: 6:00am - 6:00pm</li>
+                        <br>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                    </p>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <div class="aubox" id="auboxalt">
+                    <h1 class="aboutheading" id="aboutheadingalt">About the shop and the staff</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="workerphotobox">
+                        <img class="workerphoto" src="sitepictures/usericon.png">
+                    </div>
+                    <div class="biodescriptionbox" id="biodescriptionboxalt">
+                        <p class="biodescription"><b class="johnsname">John Doe</b><br><div class="biodescription2" id="biodescription2alt">John has been serving coffee for over 20 years,<br> and has always enjoyed serving his customers.
+                        He has lived in California<br> all of his life strives for success in providing exceptional service to his customers.<br> John graduated college with a Bachelors in Business<br>
+                        and is a certified business owner.</p></div>
+                    </div>
+                </div>
+                <footer class="mainfoot" id="mainfootalt">
+                    <div class="icondiv" id="icondivalt">
+                        <button class="fbbutton" id="fbbuttonalt" onclick="showfbalert()"><img class="fbico" id="fbicoalt" src="sitepictures/facebookicon.png"></button>
+                        <button class="instabutton" id="instabuttonalt" onclick="showinstaalert()"><img class="instaico" id="instaicoalt" src="sitepictures/instaicon.png"></button>
+                        <button class="emailbutton" id="emailbuttonalt" onclick="showemailaalert()"><img class="emailico" id="emailicoalt" src="sitepictures/emailicon.png"></button>
+                        <button class="phonebutton" id="phonebuttonalt" onclick="showphoneaalert()"><img class="phoneico" id="phoneicoalt" src="sitepictures/phoneicon.png"></button>
+                    </div>
+                    <p>This display website was developed by Jackson Zenisek.<br>Thank you for visiting!</p>
+                </footer>
+            </div>     
+        </div>
+    </body>
+</html>
+<script>
+    const classicdivs = document.querySelectorAll('#classicbox1alt,#classicbox2alt,#classicbox3alt,#classicbox4alt');
+    const classicnextbutton = document.getElementById('classicnextalt');
+    const classicprevbutton = document.getElementById('classicpreviousalt');
+let currentIndex = 0;
+
+
+function showDiv(index) {
+    classicdivs.forEach(div => div.style.display = 'none');
+    classicdivs[index].style.display = 'block';
+}
+
+
+classicnextbutton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % classicdivs.length;
+    showDiv(currentIndex);
+
+    
+});
+showDiv(currentIndex);
+
+classicprevbutton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + classicdivs.length) % classicdivs.length;
+    showDiv(currentIndex);
+
+});
+showDiv(currentIndex);
+</script>
+
+<script>
+    const jfdivs = document.querySelectorAll('#jfbox1alt,#jfbox2alt,#jfbox3alt,#jfbox4alt');
+    const jfnextbutton = document.getElementById('jfpreviousalt');
+    const jfprevbutton = document.getElementById('jfnextalt');
+let currentIndex2 = 0;
+
+function showDiv2(index) {
+    jfdivs.forEach(div => div.style.display = 'none');
+    jfdivs[index].style.display = 'block';
+}
+
+jfnextbutton.addEventListener('click', () => {
+    currentIndex2 = (currentIndex2 + 1) % jfdivs.length;
+    showDiv2(currentIndex2);
+
+    
+});
+showDiv2(currentIndex2);
+
+jfprevbutton.addEventListener('click', () => {
+    currentIndex2 = (currentIndex2 - 1 + jfdivs.length) % jfdivs.length;
+    showDiv2(currentIndex2);
+
+});
+showDiv2(currentIndex2);
+</script>
+
+<script>
+    const lemonadedivs = document.querySelectorAll('#lemonbox1alt,#lemonbox2alt,#lemonbox3alt,#lemonbox4alt');
+    const lemonadenextbutton = document.getElementById('lemonadepreviousalt');
+    const lemonadeprevbutton = document.getElementById('lemonadenextalt');
+let currentIndex3 = 0;
+
+function showDiv3(index) {
+    lemonadedivs.forEach(div => div.style.display = 'none');
+    lemonadedivs[index].style.display = 'block';
+}
+
+lemonadenextbutton.addEventListener('click', () => {
+    currentIndex3 = (currentIndex3 + 1) % lemonadedivs.length;
+    showDiv3(currentIndex3);
+
+    
+});
+showDiv3(currentIndex3);
+
+lemonadeprevbutton.addEventListener('click', () => {
+    currentIndex3 = (currentIndex3 - 1 + lemonadedivs.length) % lemonadedivs.length;
+    showDiv3(currentIndex3);
+
+});
+showDiv3(currentIndex3);
+</script>
+
+<script>
+    const teadivs = document.querySelectorAll('#teabox1alt,#teabox2alt,#teabox3alt,#teabox4alt');
+    const teanextbutton = document.getElementById('teapreviousalt');
+    const teaprevbutton = document.getElementById('teanextalt');
+let currentIndex4 = 0;
+
+function showDiv4(index) {
+    teadivs.forEach(div => div.style.display = 'none');
+    teadivs[index].style.display = 'block'; 
+}
+
+teanextbutton.addEventListener('click', () => {
+    currentIndex4 = (currentIndex4 + 1) % teadivs.length; 
+    showDiv4(currentIndex4);
+
+    
+});
+showDiv4(currentIndex4);
+
+teaprevbutton.addEventListener('click', () => {
+    currentIndex4 = (currentIndex4 - 1 + teadivs.length) % teadivs.length;
+    showDiv4(currentIndex4);
+
+});
+showDiv4(currentIndex4);
+</script>
+
+<script>
+    const smoothiedivs = document.querySelectorAll('#smoothiebox1alt,#smoothiebox2alt,#smoothiebox3alt,#smoothiebox4alt');
+    const smoothienextbutton = document.getElementById('smoothiepreviousalt');
+    const smoothieprevbutton = document.getElementById('smoothienextalt');
+let currentIndex5 = 0;
+
+function showDiv5(index) {
+    smoothiedivs.forEach(div => div.style.display = 'none');
+    smoothiedivs[index].style.display = 'block'; 
+}
+
+smoothienextbutton.addEventListener('click', () => {
+    currentIndex5 = (currentIndex5 + 1) % smoothiedivs.length; 
+    showDiv5(currentIndex5);
+
+    
+});
+showDiv5(currentIndex5);
+
+smoothieprevbutton.addEventListener('click', () => {
+    currentIndex5 = (currentIndex5 - 1 + smoothiedivs.length) % smoothiedivs.length;
+    showDiv5(currentIndex5);
+
+});
+showDiv5(currentIndex5);
+</script>
+
+<script>
+    const cocoadivs = document.querySelectorAll('#cocoabox1alt,#cocoabox2alt,#cocoabox3alt,#cocoabox4alt');
+    const cocoanextbutton = document.getElementById('cocoapreviousalt');
+    const cocoaprevbutton = document.getElementById('cocoanextalt');
+let currentIndex6 = 0;
+
+function showDiv6(index) {
+    cocoadivs.forEach(div => div.style.display = 'none');
+    cocoadivs[index].style.display = 'block'; 
+}
+
+cocoanextbutton.addEventListener('click', () => {
+    currentIndex6 = (currentIndex6 + 1) % cocoadivs.length; 
+    showDiv6(currentIndex6);
+
+    
+});
+showDiv6(currentIndex6);
+
+cocoaprevbutton.addEventListener('click', () => {
+    currentIndex6 = (currentIndex6 - 1 + cocoadivs.length) % cocoadivs.length;
+    showDiv6(currentIndex6);
+
+});
+showDiv6(currentIndex6);
+</script>

@@ -1,0 +1,186 @@
+body.logbody{
+    background-color:rgb(208, 214, 208);;
+}
+
+div.bannerdiv{
+    height:auto;
+    width:1050px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+img.mainbannerlog{
+    height:280px;
+    width:1000px;
+}
+
+div.inputdiv{
+    height:600px;
+    width:400px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+input.userbox{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:2px;
+}
+
+input.passbox{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:2px;
+}
+
+label.userlabel{
+    float:left;
+    font-size:20px;
+}
+
+label.passlabel{
+    float:left;
+    font-size:20px;
+}
+
+button.loginbutton{
+    height:50px;
+    width:100px;
+    background-color:rgb(108, 192, 108);
+    color:black;
+    border-radius:2px;
+}
+
+button.loginbutton:hover{
+    height:50px;
+    width:100px;
+    background-color:rgb(108, 192, 108);
+    color:black;
+    cursor:pointer;
+    opacity: 80%;
+}
+
+p.heading1{
+    font-size:20px;
+}
+
+button.newaccountbutton{
+    font-size:14px;
+    color:rgb(76, 150, 76);
+    background-color:transparent;
+    border:1px solid transparent;
+}
+
+button.newaccountbutton:hover{
+    font-size:14px;
+    color:rgb(117, 173, 117);
+    background-color:transparent;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+
+form.loginform{
+    border:2px solid black;
+    background-color:white;
+    border-radius: 10px;
+    height: 800px;
+    width:600px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.newaccountdiv{
+    height:600px;
+    width:400px;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+label.fnameheading{
+    float:left;
+    font-size:20px;
+}
+
+label.lnameheading{
+    float:left;
+    font-size:20px;
+}
+
+input.fnamebox{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:2px;
+}
+
+input.lnamebox{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:2px;
+}
+
+label.newemailheading{
+    float:left;
+    font-size:20px;
+}
+
+label.newpasswordheading{
+    float:left;
+    font-size:20px;
+}
+
+input.newemailbox{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:2px;
+}
+
+input.newpasswordbox{
+    height:30px;
+    width:400px;
+    border:2px solid black;
+    border-radius:2px;
+}
+
+button.createaccountbutton{
+    height:50px;
+    width:100px;
+    border: 1px solid transparent;
+    background-color:rgb(108, 192, 108);
+    color:black;
+    border-radius:2px;
+}
+
+button.createaccountbutton:hover{
+    height:50px;
+    width:100px;
+    border: 1px solid transparent;
+    background-color:rgb(108, 192, 108);
+    color:black;
+    cursor:pointer;
+    opacity: 80%;
+}
+
+@media (max-width:945px){
+    #bannerdivalt{
+        width:750px;
+    }
+}
+
+@media (max-width:945px){
+    #mainbannerlogalt{
+        width:750px;
+        margin-left:-50px;
+        margin-right:auto;
+        display:block;
+    }
+}
