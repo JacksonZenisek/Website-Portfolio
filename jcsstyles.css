@@ -2399,3 +2399,23 @@ ul.shophourslist{
     }
        
 }
+
+@media (max-width:1075px){
+    #hotlattebuttonalt,#icedlattebuttonalt,#hotmochabuttonalt,#icedmochabuttonalt,#hotamericanobuttonalt,#icedamericanobuttonalt,#hotcappuccinobuttonalt,#icedcappuccinobuttonalt{
+        height:50px;
+        width:90px;
+        font-size:20px;
+    }
+       
+}
+
+@media (max-width:1075px){
+    #classicpreviousalt,#classicnextalt{
+        height:50px;
+        width:90px;
+        font-size:20px;
+        border-radius: 5px;
+        background-color: rgb(122, 233, 200);
+    }
+       
+}
