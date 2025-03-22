@@ -1009,8 +1009,8 @@ img.homemobileicon{
 
 @media (max-width:1088px){
     #badges1alt,#badges2alt,#badges3alt,#badges4alt{
-        height:125px;
-        width:125px;
+        height:175px;
+        width:175px;
     }
 }
 
@@ -1028,11 +1028,23 @@ img.homemobileicon{
     }
 }
 
+@media(max-width: 1075px){
+    #mcompdescriptionboxalt{
+        margin-top:300px;
+    }
+}
+
+@media(max-width: 1075px){
+    #dcompdescriptionboxalt{
+        margin-top:300px;
+    }
+}
 
 
-@media (max-width:828px){
+
+@media (max-width:1075px){
     #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt{
-        font-size:18px;
+        font-size:30px;
     }
 }
 
