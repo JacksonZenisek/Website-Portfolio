@@ -1,7 +1,7 @@
 /*The CSS file of John's Coffee Shop*/
 body.main{
     background:fixed;
-    background-image: url("/home/jacksonz/Downloads/mainbackground.png");
+    background-image: url("mainbackground.png");
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-size:cover;
