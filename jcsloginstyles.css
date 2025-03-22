@@ -195,8 +195,15 @@ button.createaccountbutton:hover{
 
 @media (max-width:1075px){
     #newaccountbuttonalt{
-        width:300px;
+        width:270px;
         height:50px;
-        font-size:18px;
+        font-size:20px;
+    }
+}
+
+@media (max-width:1075px){
+    #heading1alt{
+        margin-right:-50px;
+        position:relative;
     }
 }
