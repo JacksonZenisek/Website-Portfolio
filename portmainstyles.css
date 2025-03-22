@@ -1174,3 +1174,15 @@ img.homemobileicon{
         margin-top:400px;
     }
 }
+
+@media (max-width:1075px){
+    #jcsdescriptionlinkalt,#jcslinkalt{
+        font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #sirzenigamingdescriptionlinkalt,#sirzenigaminglinkalt{
+        font-size:30px;
+    }
+}
