@@ -1,7 +1,7 @@
 /*The CSS file of John's Coffee Shop*/
 body.main{
     background:fixed;
-    background-image: url("mainbackground.png");
+    background-image: url("/home/jacksonz/Downloads/mainbackground.png");
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-size:cover;
@@ -2089,7 +2089,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #dot5alt,#dot6alt{
         margin-left:530px;
-        margin-top:-150px;
+        margin-top:-140px;
     }
 }
 
@@ -2097,7 +2097,7 @@ ul.shophourslist{
     #smoothiealt,#cocoaalt{
         float:right;
         margin-right:20px;
-        margin-top:-160px;
+        margin-top:-150px;
     }
 }
 
