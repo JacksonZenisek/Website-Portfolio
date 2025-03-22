@@ -623,6 +623,7 @@ button.hotlattebutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotlattebutton:hover{
@@ -637,6 +638,7 @@ button.icedlattebutton{
     background-color:rgb(29, 219, 219);
     cursor:pointer;
     color:black;
+    border:2px solid black
 }
 
 button.icedlattebutton:hover{
@@ -676,6 +678,7 @@ button.hotmochabutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotmochabutton:hover{
@@ -690,6 +693,7 @@ button.icedmochabutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedmochabutton:hover{
@@ -730,6 +734,7 @@ button.hotamericanobutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotamericanobutton:hover{
@@ -761,6 +766,7 @@ button.hotcappuccinobutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotcappuccinobutton:hover{
@@ -779,6 +785,7 @@ button.icedcappuccinobutton{
     background-color:rgb(29, 219, 219);
     cursor:pointer;
     color:black;
+    border:2px solid black
 }
 
 button.icedcappuccinobutton:hover{
@@ -864,6 +871,7 @@ button.hotcarameldelightbutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotcarameldelightbutton:hover{
@@ -878,6 +886,7 @@ button.icedcarameldelightbutton{
     background-color:rgb(29, 219, 219);
     cursor:pointer;
     color:black;
+    border:2px solid black
 }
 
 button.icedcarameldelightbutton:hover{
@@ -923,6 +932,7 @@ button.hotcinnamontwisterbutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotcinnamontwisterbutton:hover{
@@ -937,6 +947,7 @@ button.icedcinnamontwisterbutton{
     background-color:rgb(29, 219, 219);
     cursor:pointer;
     color:black;
+    border:2px solid black
 }
 
 button.icedcinnamontwisterbutton:hover{
@@ -976,6 +987,7 @@ button.hotvanillamagicbutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotvanillamagicbutton:hover{
@@ -990,6 +1002,7 @@ button.icedvanillamagicbutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedvanillamagicbutton:hover{
@@ -1019,6 +1032,7 @@ button.hothazelnutsunrisebutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hothazelnutsunrisebutton:hover{
@@ -1033,6 +1047,7 @@ button.icedhazelnutsunrisebutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedhazelnutsunrisebutton:hover{
@@ -1187,6 +1202,7 @@ button.hotblackteabutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotblackteabutton:hover{
@@ -1201,6 +1217,7 @@ button.icedblackteabutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedblackteabutton:hover{
@@ -1246,6 +1263,7 @@ button.hotgreenteabutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotgreenteabutton:hover{
@@ -1260,6 +1278,7 @@ button.icedgreenteabutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedgreenteabutton:hover{
@@ -1300,6 +1319,7 @@ button.hotraspberryteabutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotraspberryteabutton:hover{
@@ -1314,6 +1334,7 @@ button.icedgreenteabutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedgreenteabutton:hover{
@@ -1350,6 +1371,7 @@ button.hotstrawberryteabutton{
     width:50px;
     background-color:rgb(35, 168, 168);
     color:black;
+    border:2px solid black
 }
 
 button.hotstrawberryteabutton:hover{
@@ -1364,6 +1386,7 @@ button.icedstrawberryteabutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     color:black;
+    border:2px solid black
 }
 
 button.icedstrawberryteabutton:hover{
