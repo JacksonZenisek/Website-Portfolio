@@ -1246,3 +1246,9 @@ p.sirzenigamingdescriptionsub{
         margin-top:250px;
     }
 }
+
+@media (max-width:1075px){
+    #jcsdescriptionsubalt,#sirzenigamingdescriptionsubalt{
+        font-size:30px;
+    }
+}
