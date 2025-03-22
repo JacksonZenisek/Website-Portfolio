@@ -1943,15 +1943,16 @@ div.biodescriptionbox{
     margin-right:auto;
     margin-left:auto;
     display:block;
+    text-align:left;
+}
+
+p.johnsname{
+    font-size:50px;
     text-align:center;
 }
 
-b.johnsname{
-    font-size:50px;
-}
-
 p.biodescription{
-    font-size:18px;
+    font-size:30px;
 }
 
 ul.shophourslist{
