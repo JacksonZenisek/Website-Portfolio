@@ -1040,8 +1040,6 @@ img.homemobileicon{
     }
 }
 
-
-
 @media (max-width:1075px){
     #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt{
         font-size:30px;
@@ -1050,6 +1048,16 @@ img.homemobileicon{
 
 @media (max-width:2100px){
     #sirzenigamingpicsboxalt{
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:50px;
+        display:block;
+        float:none;
+    }
+}
+
+@media (max-width:2100px){
+    #jcspicsboxalt{
         margin-right:auto;
         margin-left:auto;
         margin-top:50px;
@@ -1128,5 +1136,41 @@ img.homemobileicon{
 @media (max-width:814px){
     #jcsdescriptionlinkalt{
         margin-top:-30px;
+    }
+}
+
+@media (max-width:1075px){
+    #jcsdescriptionalt{
+        font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #sirzenigamingdescriptionalt{
+        font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #jcspicsboxalt{
+        margin-top:100px;
+    }
+}
+
+@media (max-width:1075px){
+    #sirzenigamingalt{
+        margin-top:300px;
+    }
+}
+
+@media (max-width:1075px){
+    #jcspicsboxalt{
+        margin-top:400px;
+    }
+}
+
+@media (max-width:1075px){
+    #sirzenigamingpicsboxalt{
+        margin-top:400px;
     }
 }
