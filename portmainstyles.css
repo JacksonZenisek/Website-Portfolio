@@ -326,7 +326,7 @@ p.biography{
 
 h5.educationheading{
     font-family:'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 60px;
     color:white;
     text-align:center;
 }
@@ -339,7 +339,7 @@ p.educationdescription{
 }
 
 b.educationdescriptionacc{
-    font-size:30px;
+    font-size:50px;
     text-align:center;
     margin-right:auto;
     margin-left:auto;
