@@ -1916,6 +1916,9 @@ ul.shophourslist{
         height:170px;
         width:600px;
         margin-top:50px;
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
     }
 }
 
@@ -2008,6 +2011,7 @@ ul.shophourslist{
 @media (max-width:1075px){
     #loginbuttonalt{
         width:110px;
+        font-size:30px;
     }
 }
 
@@ -2396,6 +2400,18 @@ ul.shophourslist{
 
 @media (max-width:1075px){
     #hotblackteaheadingalt,#icedblackteaheadingalt,#hotstrawberryteaeadingalt,#icedstrawberryteateaheadingalt,#hotraspberryteaheadingalt,#icedraspberryteaheadingalt,#hotgreenteaheadingalt,#icedgreenteaheadingalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #mangomadnessteaheadingalt,#greenmonsterheadingalt,#bluemagicheadingalt,#wonderfulpinkdelightheadingalt{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1075px){
+    #originalhotcocoaalt,#hotwhitechocolatecocoaalt,#hotcaramelcocoaalt,#vanillahotcocoaalt{
         font-size:25px;
     }
 }
