@@ -170,17 +170,31 @@ button.createaccountbutton:hover{
     opacity: 80%;
 }
 
-@media (max-width:945px){
+@media (max-width:1075px){
     #bannerdivalt{
         width:750px;
     }
 }
 
-@media (max-width:945px){
+@media (max-width:1075px){
     #mainbannerlogalt{
         width:750px;
         margin-left:-50px;
         margin-right:auto;
         display:block;
+    }
+}
+
+@media (max-width:1075px){
+    #loginbuttonalt{
+        width:150px;
+    }
+}
+
+@media (max-width:1075px){
+    #newaccountbuttonalt{
+        width:150px;
+        height:50px;
+        font-size:18px;
     }
 }
