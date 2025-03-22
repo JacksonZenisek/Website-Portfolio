@@ -864,6 +864,7 @@ button.softdbuttonmobile{
     font-family:'Times New Roman', Times, serif;
     font-size:30px; 
     transition: 0.3s;
+    color:black;
 }
 
 button.softdbuttonmobile:hover{
@@ -875,6 +876,7 @@ button.softdbuttonmobile:hover{
     font-size:30px;
     color:rgb(46, 46, 46);
     cursor:pointer;
+    color:black;
 }
 
 button.webdbuttonmobile{
@@ -885,6 +887,7 @@ button.webdbuttonmobile{
     font-family:'Times New Roman', Times, serif;
     font-size:30px;
     transition: 0.3s;
+    color:black;
 }
 
 button.webdbuttonmobile:hover{
@@ -896,6 +899,7 @@ button.webdbuttonmobile:hover{
     font-size:30px; 
     color:rgb(46, 46, 46);
     cursor:pointer;
+    color:black;
 }
 
 button.itbuttonmobile{
@@ -906,6 +910,7 @@ button.itbuttonmobile{
     font-family:'Times New Roman', Times, serif;
     font-size:30px;
     transition: 0.3s;
+    color:black;
 }
 
 button.itbuttonmobile:hover{
@@ -917,6 +922,7 @@ button.itbuttonmobile:hover{
     font-size:30px;
     color:rgb(46, 46, 46);
     cursor:pointer;
+    color:black;
 }
 
 button.homemobilebutton{
@@ -951,9 +957,11 @@ img.homemobileicon{
 
 /*Media querries*/
 
+
+
 @media (max-width:1212px){
     #biographyalt,#educationdescriptionalt{
-        font-size:30px;
+        font-size:40px;
     }
 }
 
