@@ -457,7 +457,7 @@ p.jcsdescription{
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
     color:white;
-    margin-top:-75px;
+    
 }
 
 
@@ -465,19 +465,21 @@ p.sirzenigamingdescription{
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
     color:white;
-    margin-top:-75px;
+    text-align:left;
 }
 
 p.jcsdescriptionlink{
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
     color:white;
+    margin-top:-20px;
 }
 
 p.sirzenigamingdescriptionlink{
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
     color:white;
+    margin-top:-20px;
 }
 
 a.downloadsirzenigamingfiles{
@@ -967,10 +969,33 @@ img.homemobileicon{
     width:75px;
 }
 
-div.jcsdescriptioninner{
-    height:auto;
+div.jcsdescriptionbox{
+    height:325px;
     width:600px;
-    border: 1px solid red;
+    text-align:left;
+    margin-top:-70px;
+    margin-left:50px;
+}
+
+div.sirzenigamingdescriptionbox{
+    height:325px;
+    width:600px;
+    text-align:left;
+    margin-top:-70px;
+    margin-left:50px;
+}
+
+p.jcsdescriptionsub{
+    color:white;
+    text-align:center;
+    font-size:20px;
+}
+
+p.sirzenigamingdescriptionsub{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    text-align:center;
 }
 
 
@@ -1211,5 +1236,13 @@ div.jcsdescriptioninner{
 @media (max-width:1075px){
     #sirzenigamingdescriptionlinkalt,#sirzenigaminglinkalt{
         font-size:30px;
+        margin-top:250px;
+    }
+}
+
+@media (max-width:1075px){
+    #jcsdescriptionlinkalt,#jcslinkalt{
+        font-size:30px;
+        margin-top:250px;
     }
 }
