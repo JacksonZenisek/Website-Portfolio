@@ -308,16 +308,27 @@ h1.introheading{
     color:white;
 }
 
+div.biodiv{
+    height:auto;
+    width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    text-align:left;
+}
+
 p.biography{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color:white;
+    float:left;
 }
 
 h5.educationheading{
     font-family:'Times New Roman', Times, serif;
     font-size: 50px;
     color:white;
+    text-align:center;
 }
 
 p.educationdescription{
@@ -329,6 +340,10 @@ p.educationdescription{
 
 b.educationdescriptionacc{
     font-size:30px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
 }
 
 h6.itcertsheading{
@@ -952,12 +967,24 @@ img.homemobileicon{
     width:75px;
 }
 
+div.jcsdescriptioninner{
+    height:auto;
+    width:600px;
+    border: 1px solid red;
+}
+
 
 
 
 /*Media querries*/
 
-
+@media (max-width:1212px){
+    #biodivalt{
+        width:800px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+}
 
 @media (max-width:1212px){
     #biographyalt,#educationdescriptionalt{
