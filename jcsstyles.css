@@ -1,7 +1,7 @@
 /*The CSS file of John's Coffee Shop*/
 body.main{
     background:fixed;
-    background-image: url("mainbackground.png");
+    background-image: url("/home/jacksonz/Downloads/mainbackground.png");
     background-repeat:no-repeat;
     background-attachment:scroll;
     background-size:cover;
@@ -748,6 +748,8 @@ button.icedamericanobutton{
     width:50px;
     background-color:rgb(29, 219, 219);
     cursor:pointer;
+    color:black;
+    border:2px solid black
 }
 
 button.icedamericanobutton:hover{
