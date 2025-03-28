@@ -998,7 +998,73 @@ p.sirzenigamingdescriptionsub{
     text-align:center;
 }
 
+div.snakedivbox{
+    height:auto;
+    width:auto;
+    border: 5px solid grey;
+    border-left: transparent;
+    border-right: transparent;
+}
 
+div.snakedescriptionbox{
+    height:500px;
+    width:700px;
+    margin-left:200px;
+}
+
+p.snakegameheading{
+    font-size:85px;
+    color:white;
+    text-align:center;
+    margin-top:-10px;
+}
+
+p.snakegameheadingsub{
+    font-size:20px;
+    color:white;
+    text-align:center;
+    margin-top:-50px;
+}
+
+p.snakegamedescription{
+    font-size:20px;
+    color:white;
+    text-align:left;
+    margin-top:-20px;
+}
+
+a.downloadsnakegame{
+    font-size:20px;
+    color:rgb(180, 178, 178);
+    text-decoration: none;
+}
+
+a.downloadsnakegame:hover{
+    font-size:20px;
+    color:rgb(212, 210, 210);
+    text-decoration:underline solid rgb(192, 192, 115);
+    text-underline-offset: 10px;
+}
+
+div.snakepicsbox{
+    height: 350px;
+    width: 750px;
+    border: 5px solid rgb(116, 116, 116);
+    float: right;
+    margin-top: -425px;
+    margin-right: 400px;
+}
+
+img.snakepic{
+    height:350px;
+    width:350px;
+}
+
+p.snakenotonphone{
+    font-size:30px;
+    color:white;
+    text-align:center;
+}
 
 
 /*Media querries*/
@@ -1095,6 +1161,64 @@ p.sirzenigamingdescriptionsub{
 @media (max-width:1075px){
     #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt{
         font-size:30px;
+    }
+}
+
+@media (min-width:1075px){
+    #snakenotonphonealt{
+        display:none;
+    }
+}
+
+@media (max-width:1075px){
+    #snakedescriptionboxalt{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border:1px solid transparent;
+        height:600px;
+    }
+}
+
+@media (max-width:2100px){
+    #snakepicsboxalt{
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:50px;
+        display:block;
+        float:none;
+    }
+}
+
+@media (max-width:1075px){
+    #snakepicsboxalt{
+        margin-top:300px;
+    }
+}
+
+@media (max-width:1075px){
+    #downloadsnakegamealt{
+        display:none;
+    }
+}
+
+@media (max-width:1075px){
+    #snakegameheadingsubalt{
+        font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #snakegamedescriptionalt{
+        font-size:30px;
+    }
+}
+
+@media (max-width:2100px){
+    #snakedescriptionboxalt{
+        margin-right:auto;
+        margin-left:auto;  
+        display:block;
     }
 }
 
