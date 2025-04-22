@@ -52,8 +52,8 @@ function highlightmobileexitbutton(){
 }
 
 function dulmobileexitbutton(){
-    document.getElementById("spans1exitalt").style.backgroundColor = "grey";
-    document.getElementById("spans2exitalt").style.backgroundColor = "grey";
+    document.getElementById("spans1exitalt").style.backgroundColor = "black";
+    document.getElementById("spans2exitalt").style.backgroundColor = "black";
 }
 
 
@@ -265,54 +265,12 @@ function hidehomebutton(){
 }
 
 function showmobilesidemenu(){
-    let a = document.getElementById("mobilesidemenualt");
-    let b = document.getElementById("mobileexitmenubuttonalt");
-    let c = document.getElementById("mobilemenubuttonalt");
-
-    if(a.style.display === "none"){
-        a.style.display = "block";
-    }else{
-        a.style.display = "block";
-    }
-
-    if(b.style.display === "none"){
-        b.style.display = "block";
-    }else{
-        b.style.display = "block";
-    }
-
-    if(c.style.display === "block"){
-        c.style.display = "none";
-    }else{
-        c.style.display = "none";
-    }
+    document.getElementById("mobilesidemenualt").style.width = "600px";
 }   
 
-function transitionslide(){
-    document.getElementById("mobilesidemenualt").style.left = 100;
-}
-
 function hidemobilesidemenu(){
-    let a = document.getElementById("mobilesidemenualt");
-    let b = document.getElementById("mobileexitmenubuttonalt");
-    let c = document.getElementById("mobilemenubuttonalt");
-    if(a.style.display === "block"){
-        a.style.display = "none";
-    }else{
-        a.style.display = "none";
-    }
-
-    if(b.style.display === "block"){
-        b.style.display = "none";
-    }else{
-        b.style.display = "none";
-    }
-
-    if(c.style.display === "none"){
-        c.style.display = "block";
-    }else{
-        c.style.display = "block";
-    }
+    document.getElementById("mobilesidemenualt").style.width = "0px";
+   
 }
 
 
@@ -350,6 +308,7 @@ function showsoftdsectionmobile(){
         e.style.display = "none";
     }
 
+    c.style.width = "0";
 }
 
 function showwebdsectionmobile(){
@@ -386,7 +345,7 @@ function showwebdsectionmobile(){
         d.style.display = "block";
         e.style.display = "none";
     }
-
+    c.style.width = "0";
 }
 
 function showitsectionmobile(){
@@ -423,6 +382,7 @@ function showitsectionmobile(){
         d.style.display = "block";
         e.style.display = "none";
     }
+    c.style.width = "0";
 
 }
 
@@ -443,6 +403,14 @@ function showmobilehomepage(){
         c.style.display = "none";
         d.style.display = "none";
         e.style.display = "none";
-        f.style.display = "none";
-        h.style.display = "none";
-}}
+        f.style.width = "0";
+}else{
+        b.style.display = "block";
+        g.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.width = "0";
+}
+}
