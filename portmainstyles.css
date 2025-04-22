@@ -221,26 +221,19 @@ button.mobileexitmenubutton{
     width:55px;
     border:1px solid transparent;
     background-color:transparent;
-    float:left;
-    margin-left:75px;
-    margin-top:-110px;
-    display:none;
+    float:right;
+    display:block;
 }
 
 button.mobileexitmenubutton:hover{
-    height:40px;
-    width:55px;
-    background-color:transparent;
-    float:left;
-    margin-left:75px;
-    margin-top:-110px;
+    float:right;
     cursor:pointer;
 }
 
 div.spans1exit{
     height:3px;
     width:35px;
-    background-color:grey;
+    background-color:black;
     margin-top:-15px;
     margin-right:auto;
     margin-left:auto;
@@ -251,7 +244,7 @@ div.spans1exit{
 div.spans2exit{
     height:3px;
     width:35px;
-    background-color:grey;
+    background-color:black;
     margin-top:-2px;
     margin-right:auto;
     margin-left:auto;
@@ -837,15 +830,17 @@ img.bttbuttonimg{
 }
 
 div.mobilesidemenu{
-    height:1400px;
-    width:550px;
+    height:100%;
+    width:0;
     background-color: grey;
     position:absolute;
-    margin-top: 8px;
-    margin-left:-8px;
     left:0;
-    transition-duration:1s;
-    display:none;
+    top:0;
+    z-index:1;
+    position:fixed;
+    overflow-x:hidden;
+    transition-duration:0.5s;
+    display:block;
 }
 
 div.softdboxmobile{
@@ -968,21 +963,14 @@ button.itbuttonmobile:hover{
 button.homemobilebutton{
     height:auto;
     width:auto;
-    float:left;
-    margin-top:-120px;
-    margin-left:200px;
+    margin-right:auto;
+    margin-left:auto;
     border:1px solid transparent;
     background-color:transparent;
     display:none;
 }
 
 button.homemobilebutton:hover{
-    height:auto;
-    width:auto;
-    margin-top:-120px;
-    margin-left:200px;
-    border:1px solid transparent;
-    background-color:transparent;
     opacity: 90%;
     cursor:pointer;
 }
