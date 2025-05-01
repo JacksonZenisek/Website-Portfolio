@@ -414,3 +414,37 @@ function showmobilehomepage(){
         f.style.width = "0";
 }
 }
+
+
+setInterval(keytracerpictimer, 1000);
+
+function keytracerpictimer(){
+    let a = document.getElementById("keytracer1pic");
+    let b = document.getElementById("keytracer2pic");
+    let c = document.getElementById("keytracer3pic");
+    let d = document.getElementById("keytracer4pic");
+
+    const kttime = new Date().getSeconds();
+
+    if(kttime < 15){
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(kttime > 15, kttime < 30){
+        a.style.display = "none";
+        b.style.display = "block";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(kttime > 30, kttime < 45){
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "block";
+        d.style.display = "none";
+    }else{
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "block";
+    }
+}
