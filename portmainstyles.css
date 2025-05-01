@@ -1077,6 +1077,28 @@ p.snakenotonphone{
     text-align:center;
 }
 
+img.keytracer1pic{
+    height:350px;
+    width:350px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+img.keytracer2pic{
+    height:350px;
+    width:750px;
+    display:none;
+}
+img.keytracer3pic{
+    height:350px;
+    width:750px;
+    display:none;
+}
+img.keytracer4pic{
+    height:350px;
+    width:750px;
+    display:none;
+}
 
 /*Media querries*/
 
