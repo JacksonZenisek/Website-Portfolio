@@ -164,8 +164,8 @@ div.itdunderline{
 }
 
 button.mobilemenubutton{
-    height:40px;
-    width:55px;
+    height:50px;
+    width:75px;
     border: 1px solid transparent;
     background-color:transparent;
     float:left;
@@ -175,8 +175,8 @@ button.mobilemenubutton{
 }
 
 button.mobilemenubutton:hover{
-    height:40px;
-    width:55px;
+    height:50px;
+    width:75px;
     border:1px solid transparent;
     background-color:transparent;
     float:left;
@@ -186,8 +186,8 @@ button.mobilemenubutton:hover{
 }
 
 div.spans1{
-    height:3px;
-    width:35px;
+    height:5px;
+    width:55px;
     background-color:grey;
     margin-top:-15px;
     margin-right:auto;
@@ -196,8 +196,8 @@ div.spans1{
 }
 
 div.spans2{
-    height:3px;
-    width:35px;
+    height:5px;
+    width:55px;
     background-color:grey;
     margin-top:8px;
     margin-right:auto;
@@ -206,8 +206,8 @@ div.spans2{
 }
 
 div.spans3{
-    height:3px;
-    width:35px;
+    height:5px;
+    width:55px;
     background-color:grey;
     margin-top:8px;
     margin-right:auto;
