@@ -217,8 +217,8 @@ div.spans3{
 
 
 button.mobileexitmenubutton{
-    height:40px;
-    width:55px;
+    height:60px;
+    width:80px;
     border:1px solid transparent;
     background-color:transparent;
     float:right;
@@ -231,8 +231,8 @@ button.mobileexitmenubutton:hover{
 }
 
 div.spans1exit{
-    height:3px;
-    width:35px;
+    height:4px;
+    width:45px;
     background-color:black;
     margin-top:-15px;
     margin-right:auto;
@@ -242,8 +242,8 @@ div.spans1exit{
 }
 
 div.spans2exit{
-    height:3px;
-    width:35px;
+    height:4px;
+    width:45px;
     background-color:black;
     margin-top:-2px;
     margin-right:auto;
