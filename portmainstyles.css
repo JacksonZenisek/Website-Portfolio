@@ -89,7 +89,7 @@ div.softdbox{
     border:1px solid transparent;
     float:left;
     margin-top:-150px;
-    margin-left:150px;
+    margin-left:350px;
 }
 
 button.webdbutton{
@@ -891,6 +891,16 @@ div.linkedinboxmobile{
     margin-top:50px;
 }
 
+div.githubboxmobile{
+    height:150px;
+    width:300px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:50px;
+}
+
 button.softdbuttonmobile{
     height:50px;
     width:auto;
@@ -1100,6 +1110,32 @@ img.keytracer4pic{
     display:none;
 }
 
+div.githubbox{
+    height:150px;
+    width:150px;
+    margin-top:-150px;
+    margin-left:200px;
+}
+
+img.githubico{
+    height:100px;
+    width:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+img.githubico:hover{
+   opacity:80%;
+}
+
+img.githubiconmobile{
+    height:100px;
+    width:100px;
+}
+
 /*Media querries*/
 
 @media (max-width:1212px){
@@ -1116,37 +1152,37 @@ img.keytracer4pic{
     }
 }
 
-@media (min-width: 1575px){
+@media (min-width: 1670px){
     #mobilemenubuttonalt{
         display:none;
     }
 }
 
-@media (max-width: 1575px){
-    #softdbuttonalt,#webdbuttonalt,#linkedinboxalt,#itbuttonalt{
+@media (max-width: 1670px){
+    #softdbuttonalt,#webdbuttonalt,#linkedinboxalt,#githubboxalt,#itbuttonalt{
         display:none;
     }
 }
 
-@media (min-width: 1575px){
+@media (min-width: 1670px){
     #mobilesidemenualt{
         right: 0;
     }
 }
 
-@media (min-width:1575px){
+@media (min-width:1670px){
     #homemobilebuttonalt{
         display:none;
     }
 }
 
-@media (max-width:1575px){
+@media (max-width:1670px){
     #homebuttonboxalt{
         margin-left:-500px;
     }
 }
 
-@media (max-width:1575px){
+@media (max-width:1670px){
     #softdboxalt,#webdboxalt,#itboxalt{
         display:none;
     }
