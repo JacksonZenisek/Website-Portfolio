@@ -676,6 +676,48 @@ p.pcompdescription{
     color:white;
 }
 
+div.kcameradescriptionbox{
+    height:1200px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
+div.kcamerapicframe{
+    height:600px;
+    width:450px;
+    border:5px solid grey;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.kcamerapic1{
+    height:600px;
+    width:450px;
+    display:block;
+}
+
+img.kcamerapic2,.kcamerapic3,.kcamerapic4,.kcamerapic5{
+    height:600px;
+    width:450px;
+    display:none;
+}
+
+b.kcamerabolddesription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    color:white;
+}
+
+p.kcameradescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
 div.compprojects{
     height:auto;
     width:auto;
