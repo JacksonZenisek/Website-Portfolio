@@ -17,6 +17,51 @@ function maingreeting(){
     document.getElementById("introheadingalt").innerHTML = a;
 }
 
+setInterval(kcamerapicswitch,1000);
+
+function kcamerapicswitch(){
+    let a = document.getElementById("kcamerapic1alt");
+    let b = document.getElementById("kcamerapic2alt");
+    let c = document.getElementById("kcamerapic3alt");
+    let d = document.getElementById("kcamerapic4alt");
+    let e = document.getElementById("kcamerapic5alt");
+    
+    const kcameraswitchvalue = new Date().getSeconds();
+
+
+    if(kcameraswitchvalue < 12){
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+    }else if(kcameraswitchvalue > 12, kcameraswitchvalue < 24){
+        b.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+    }else if(kcameraswitchvalue > 24, kcameraswitchvalue < 36){
+        c.style.display = "block";
+        b.style.display = "none";
+        a.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+    }else if(kcameraswitchvalue > 36, kcameraswitchvalue < 48){
+        d.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        e.style.display = "none";
+    }else{
+        e.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }
+};
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction(){
