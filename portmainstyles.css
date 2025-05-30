@@ -532,6 +532,37 @@ div.sirzenigamingpicsbox{
     margin-right:400px;
 }
 
+
+img.aogpicture1{
+    height:350px;
+    width:700px;
+    transition:ease-in-out;
+}
+
+img.aogpicture2{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.aogpicture3{
+    height:350px;
+    width:700px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:black;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.aogpicture4{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
 img.jcspicture1{
     height:350px;
     width:700px;
