@@ -201,16 +201,16 @@ function showitsection(){
 
 }
 
-setInterval(webdjcs,1000);
+setInterval(webdaog,1000);
 
-function webdjcs(){
+function webdaog(){
 
     const y = new Date().getSeconds();
 
-    let a = document.getElementById("jcspicture1alt");
-    let b = document.getElementById("jcspicture2alt");
-    let c = document.getElementById("jcspicture3alt");
-    let d = document.getElementById("jcspicture4alt");
+    let a = document.getElementById("aogpicture1alt");
+    let b = document.getElementById("aogpicture2alt");
+    let c = document.getElementById("aogpicture3alt");
+    let d = document.getElementById("aogpicture4alt");
    
     if(y < 15){
         a.style.display = "block";
@@ -236,29 +236,28 @@ function webdjcs(){
 
 }
 
-setInterval(webdsirzenigaming,1000);
+setInterval(webdjcs,1000);
 
-function webdsirzenigaming(){
+function webdjcs(){
 
-    const z = new Date().getSeconds();
+    const y = new Date().getSeconds();
 
-    let a = document.getElementById("sirzenigamingpicture1alt");
-    let b = document.getElementById("sirzenigamingpicture2alt");
-    let c = document.getElementById("sirzenigamingpicture3alt");
-    let d = document.getElementById("sirzenigamingpicture4alt");
+    let a = document.getElementById("jcspicture1alt");
+    let b = document.getElementById("jcspicture2alt");
+    let c = document.getElementById("jcspicture3alt");
+    let d = document.getElementById("jcspicture4alt");
    
-    if(z < 15){
+    if(y < 15){
         a.style.display = "block";
         b.style.display = "none";
         c.style.display = "none";
         d.style.display = "none";
-        a.style.transitionDuration = "1s"
-    }else if(z > 15, z < 30){
+    }else if(y > 15, y < 30){
         b.style.display = "block";
         a.style.display = "none";
         c.style.display = "none";
         d.style.display = "none";
-    }else if(z > 30, z < 45){
+    }else if(y > 30, y < 45){
         c.style.display = "block";
         a.style.display = "none";
         b.style.display = "none";
