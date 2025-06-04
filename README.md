@@ -1,5 +1,5 @@
 # My Portfolio
-This website was developed by me to display my IT, web development, and software development abilities. I has a home, IT Training/Computer Repair, Web Development, and Software Development.
+I developed my online portfolio to display my IT, web development, and software development abilities. I has a home, IT Training/Computer Repair, Web Development, and Software Development.
 
 <b>IT Training/Computer Repair:</b>
 
