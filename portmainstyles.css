@@ -1209,6 +1209,12 @@ img.githubiconmobile{
     width:100px;
 }
 
+p.copynotice{
+    font-size:25px;
+    color:white;
+    text-align:center;
+}
+
 /*Media querries*/
 
 @media (max-width:1212px){
