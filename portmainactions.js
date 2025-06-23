@@ -201,6 +201,41 @@ function showitsection(){
 
 }
 
+setInterval(webdcapstoneproject,1000);
+
+function webdcapstoneproject(){
+
+    const y = new Date().getSeconds();
+
+    let a = document.getElementById("zenportfoliopic1alt");
+    let b = document.getElementById("zenportfoliopic2alt");
+    let c = document.getElementById("zenportfoliopic3alt");
+    let d = document.getElementById("zenportfoliopic4alt");
+   
+    if(y < 15){
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 15, y < 30){
+        b.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 30, y < 45){
+        c.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        d.style.display = "none";
+    }else{
+        d.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+    }
+
+}
+
 setInterval(webdaog,1000);
 
 function webdaog(){
