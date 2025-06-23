@@ -454,6 +454,13 @@ p.jcsheading{
     margin-top:-10px;
 }
 
+p.capstoneheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:85px;
+    color:white;
+    margin-top:-10px;
+}
+
 div.sirzenigamingbox{
     height:auto;
     width:auto;
@@ -489,6 +496,13 @@ p.jcsdescriptionlink{
     font-size:20px;
     color:white;
     margin-top:-20px;
+}
+
+p.capstonelink{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    margin-top:-100px;
 }
 
 p.sirzenigamingdescriptionlink{
@@ -563,6 +577,36 @@ img.aogpicture4{
     transition:ease-in-out;
 }
 
+img.zenportfoliopic1{
+    height:350px;
+    width:700px;
+    transition:ease-in-out;
+}
+
+img.zenportfoliopic2{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.zenportfoliopic3{
+    height:350px;
+    width:700px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:black;
+    display:none;
+    transition:ease-in-out;
+}
+
+img.zenportfoliopic4{
+    height:350px;
+    width:700px;
+    display:none;
+    transition:ease-in-out;
+}
+
 img.jcspicture1{
     height:350px;
     width:700px;
@@ -592,8 +636,6 @@ img.jcspicture4{
     display:none;
     transition:ease-in-out;
 }
-
-
 
 img.sirzenigamingpicture1{
     height:350px;
@@ -1215,6 +1257,10 @@ p.copynotice{
     text-align:center;
 }
 
+p.capstonelink{
+    font-size:20px;
+}
+
 /*Media querries*/
 
 @media (max-width:1212px){
@@ -1391,6 +1437,16 @@ p.copynotice{
 }
 
 @media (max-width:2100px){
+    #capstonepicboxalt{
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:50px;
+        display:block;
+        float:none;
+    }
+}
+
+@media (max-width:2100px){
     #sirzenigaminglistingalt{
         margin-right:auto;
         margin-left:auto;
@@ -1425,6 +1481,13 @@ p.copynotice{
         float:none;
     }
 }
+@media (max-width:814px){
+    #jcspicture1alt,#jcspicture2alt,#jcspicture3alt,#jcspicture4alt{
+        height:200px;
+        width:400px;
+    }
+}
+
 @media (max-width:814px){
     #jcspicture1alt,#jcspicture2alt,#jcspicture3alt,#jcspicture4alt{
         height:200px;
@@ -1522,5 +1585,28 @@ p.copynotice{
 @media (max-width:1075px){
     #jcsdescriptionsubalt,#sirzenigamingdescriptionsubalt{
         font-size:30px;
+    }
+}
+
+@media(max-width: 2100px){
+    #capstonelinkalt{
+        font-size:20px;
+    }
+}
+
+@media(max-width: 1075px){
+    #capstonelinkalt{
+        margin-top:100px;
+        font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #capstonepicboxalt{
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:300px;
+        display:block;
+        float:none;
     }
 }
