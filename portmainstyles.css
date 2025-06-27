@@ -749,6 +749,15 @@ p.pcompdescription{
     color:white;
 }
 
+div.marcompdescriptionbox{
+    height:1200px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
 div.kcameradescriptionbox{
     height:1200px;
     width:800px;
@@ -1333,6 +1342,19 @@ p.capstonelink{
     }
 }
 
+@media (max-width:1075px){
+    #marcompdescriptionboxalt{
+        height:1600px;
+        font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #kcameradescriptionalt{
+        font-size:30px;
+    }
+}
+
 @media(max-width: 828px){
     #pcompdescriptionboxalt,#mcompdescriptionboxalt,#dcompdescriptionboxalt,#mnrcompdescriptionboxalt{
         margin-left:-40px;
@@ -1355,6 +1377,12 @@ p.capstonelink{
 @media (max-width:1075px){
     #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt{
         font-size:30px;
+    }
+}
+
+@media (max-width:1075px){
+    #mnrcompdescriptionboxalt{
+        height:1400px;
     }
 }
 
