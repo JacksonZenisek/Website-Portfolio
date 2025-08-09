@@ -388,7 +388,7 @@ img.badges1{
 img.badges1:hover{
     height:200px;
     width:200px;
-    opacity: 90%;
+    opacity: 80%;
     margin-right: 20px;
 }
 
@@ -402,7 +402,7 @@ img.badges2{
 img.badges2:hover{
     height:200px;
     width:200px;
-    opacity: 90%;
+    opacity: 80%;
     margin-right: 20px;
 }
 
@@ -416,7 +416,7 @@ img.badges3{
 img.badges3:hover{
     height:200px;
     width:200px;
-    opacity: 90%;
+    opacity: 80%;
     margin-right: 20px;
 }
 
@@ -430,7 +430,7 @@ img.badges4{
 img.badges4:hover{
     height:200px;
     width:200px;
-    opacity: 90%;
+    opacity: 80%;
     margin-right: 20px;
 }
 
@@ -1291,6 +1291,160 @@ p.capstonelink{
     font-size:20px;
 }
 
+div.webdcertificationscontainer{
+    height:400px;
+    width:auto;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h6.webdcertheading{
+    font-size:50px;
+    text-align:center;
+    margin-top:40px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+img.htmlcsscertlink{
+    height:300px;
+    width:200px;
+    margin-top:-100px;
+    transition: 0.3s;
+}
+
+img.htmlcsscertlink:hover{
+    opacity:80%;
+}
+
+div.pnotescontainer{
+    height:50px;
+    width:300px;
+}
+
+button.pnotesbutton{
+    height:50px;
+    width:150px;
+    background-color:lightgrey;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    border:1px solid black;
+    border-radius: 5px;
+    transition:0.3s;
+}
+
+button.pnotesbutton:hover{
+    cursor:pointer;
+    background-color:rgb(168, 168, 168);
+}
+
+h2.pnotesheading{
+    text-align:center;
+    font-size:100px;
+}
+
+h6.pnotessubheading{
+    font-size:30px;
+}
+
+div.pnotesmaincontainer{
+    height:auto;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+span.updateheadings{
+    font-size:40px;
+    color:red;
+}
+
+p.updateparas{
+    font-size:30px;
+    color:black;
+}
+
+form.outerformcontainer{
+    height:650px;
+    width:600px;
+    border:4px solid black;
+    border-radius: 10px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h6.formheading{
+    font-size:20px;
+    text-align:center;
+}
+
+div.innererrorformcontainer{
+    height:520px;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+label.mainformlabels{
+    font-size:20px;
+    color:black;
+}
+
+input.nameinputbar, .emailinputbar{
+    height:20px;
+    width:400px;
+    font-size:20px;
+}
+
+option.locationinputbar{
+    height:20px;
+    width:150px;
+    font-size:20px;
+}
+
+select.locationinputbar{
+    height:20px;
+    width:250px;
+    font-size:15px;
+}
+
+textarea.messegtextarea{
+    height:200px;
+    width:470px;
+    resize: none;
+    zoom: none;
+    font-size:15px;
+}
+
+button.submitbuttonerrorform{
+    height:50px;
+    width:150px;
+    border:2px solid black;
+    color:black;
+    font-size:20px;
+    background-color:rgb(55, 174, 253);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition:0.3s;
+}
+
+button.submitbuttonerrorform:hover{
+    cursor:pointer;
+    background-color: rgb(119, 193, 243);
+}
+
+/*Pnotes Section*/
+
+body.pnotespagebody{
+    background-color:rgb(190, 190, 190);
+}
+
 /*Media querries*/
 
 @media (max-width:1212px){
@@ -1669,5 +1823,11 @@ p.capstonelink{
 @media (max-width:1075px){
     #capstoneresplinkalt{
        font-size:30px;
+    }
+}
+
+@media (max-width:1212px){
+    #pnotescontaineralt{
+        height:200px;
     }
 }
