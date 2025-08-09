@@ -527,3 +527,7 @@ function keytracerpictimer(){
         d.style.display = "block";
     }
 }
+
+function gotopnotespage(){
+    document.location = "jzenisekportpatchnotes.html";
+}
