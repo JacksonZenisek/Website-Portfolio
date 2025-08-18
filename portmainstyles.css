@@ -772,6 +772,28 @@ p.pcompdescription{
     color:white;
 }
 
+div.jacksonpcompdescriptionbox{
+    height:1200px;
+    width:800px;
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+}
+
+b.jacksonpcompbolddesription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    color:white;
+}
+
+p.jacksonpcompdescription{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
 div.marcompdescriptionbox{
     height:1200px;
     width:800px;
@@ -1408,9 +1430,9 @@ option.locationinputbar{
 }
 
 select.locationinputbar{
-    height:20px;
+    height:40px;
     width:250px;
-    font-size:15px;
+    font-size:23px;
 }
 
 textarea.messegtextarea{
@@ -1550,7 +1572,7 @@ body.pnotespagebody{
 }
 
 @media (max-width:1075px){
-    #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt{
+    #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt,#jacksonpcompdescriptionalt{
         font-size:30px;
     }
 }
@@ -1558,6 +1580,7 @@ body.pnotespagebody{
 @media (max-width:1075px){
     #mnrcompdescriptionboxalt{
         height:1400px;
+        margin-top:500px;
     }
 }
 
