@@ -1624,13 +1624,13 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #snakegameheadingsubalt{
-        font-size:35px;
+        font-size:40px;
     }
 }
 
 @media (max-width:1075px){
     #snakegamedescriptionalt{
-        font-size:35px;
+        font-size:40px;
     }
 }
 
@@ -1754,7 +1754,7 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #jcsdescriptionalt{
-        font-size:35px;
+        font-size:40px;
     }
 }
 
@@ -1778,7 +1778,7 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #jcspicsboxalt{
-        margin-top:500px;
+        margin-top:800px;
     }
 }
 
@@ -1804,13 +1804,13 @@ body.pnotespagebody{
 @media (max-width:1075px){
     #jcsdescriptionlinkalt,#jcslinkalt{
         font-size:30px;
-        margin-top:300px;
+        margin-top:550px;
     }
 }
 
 @media (max-width:1075px){
     #jcsdescriptionsubalt,#sirzenigamingdescriptionsubalt{
-        font-size:35px;
+        font-size:40px;
     }
 }
 
@@ -1822,7 +1822,7 @@ body.pnotespagebody{
 
 @media(max-width: 1075px){
     #capstonelinkalt{
-        margin-top:250px;
+        margin-top:400px;
         font-size:30px;
     }
 }
@@ -1831,7 +1831,7 @@ body.pnotespagebody{
     #capstonepicboxalt{
         margin-right:auto;
         margin-left:auto;
-        margin-top:500px;
+        margin-top:700px;
         display:block;
         float:none;
     }
@@ -1869,30 +1869,36 @@ body.pnotespagebody{
 
 @media(max-width:1075px){
     #capstoneboxalt{
-        height:1500px;
+        height:1700px;
     }
 }
 
 @media(max-width:1075px){
     #jcsalt{
-        height:1500px;
+        height:1700px;
     }
 }
 
 @media(max-width:1075px){
     #snakenotonphonealt{
-        font-size:35px;
+        font-size:40px;
     }
 }
 
 @media (max-width:1075px){
     #snakepicsboxalt{
-        margin-top:150px;
+        margin-top:300px;
     }
 }
 
 @media (max-width:1075px){
     #outerformcontaineralt{
         height:750px;
+    }
+}
+
+@media(max-width:1075px){
+    #snakedivboxalt{
+        height:1400px;
     }
 }
