@@ -59,12 +59,12 @@ p.email_heading{
 
 a.email_link{
     text-decoration:none;
-    color: lightgrey;
+    color: rgb(115, 182, 199)
 }
 
 a.email_link:hover{
-    text-decoration:underline;
-    text-underline-offset:5px;
+    text-decoration: underline rgb(206, 206, 76);
+    text-underline-offset: 12px;  
 }
 
 img.homeicon{
@@ -672,7 +672,7 @@ img.sirzenigamingpicture4{
 }
 
 a.jcslink{
-    color: rgb(180, 178, 178);
+    color: rgb(115, 182, 199);
     text-decoration: none;
 }
 
@@ -682,7 +682,7 @@ a.jcslink:hover{
 }
 
 a.capstresplink{
-    color:rgb(180, 178, 178);
+    color:rgb(115, 182, 199);
     text-decoration: none;
 }
 
@@ -1223,13 +1223,13 @@ p.snakegamedescription{
 
 a.downloadsnakegame{
     font-size:20px;
-    color:rgb(180, 178, 178);
+    color:rgb(115, 182, 199);
     text-decoration: none;
 }
 
 a.downloadsnakegame:hover{
     font-size:20px;
-    color:rgb(212, 210, 210);
+    color:rgb(115, 182, 199);
     text-decoration:underline solid rgb(192, 192, 115);
     text-underline-offset: 10px;
 }
@@ -1573,7 +1573,7 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #pcompdescriptionalt,#mcompdescriptionalt,#dcompdescriptionalt,#mnrcompdescriptionalt,#jacksonpcompdescriptionalt{
-        font-size:30px;
+        font-size:32px;
     }
 }
 
@@ -1624,13 +1624,13 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #snakegameheadingsubalt{
-        font-size:30px;
+        font-size:35px;
     }
 }
 
 @media (max-width:1075px){
     #snakegamedescriptionalt{
-        font-size:30px;
+        font-size:35px;
     }
 }
 
@@ -1754,7 +1754,7 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #jcsdescriptionalt{
-        font-size:30px;
+        font-size:35px;
     }
 }
 
@@ -1778,7 +1778,7 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #jcspicsboxalt{
-        margin-top:400px;
+        margin-top:500px;
     }
 }
 
@@ -1804,13 +1804,13 @@ body.pnotespagebody{
 @media (max-width:1075px){
     #jcsdescriptionlinkalt,#jcslinkalt{
         font-size:30px;
-        margin-top:200px;
+        margin-top:300px;
     }
 }
 
 @media (max-width:1075px){
     #jcsdescriptionsubalt,#sirzenigamingdescriptionsubalt{
-        font-size:30px;
+        font-size:35px;
     }
 }
 
@@ -1822,7 +1822,7 @@ body.pnotespagebody{
 
 @media(max-width: 1075px){
     #capstonelinkalt{
-        margin-top:100px;
+        margin-top:250px;
         font-size:30px;
     }
 }
@@ -1831,7 +1831,7 @@ body.pnotespagebody{
     #capstonepicboxalt{
         margin-right:auto;
         margin-left:auto;
-        margin-top:300px;
+        margin-top:500px;
         display:block;
         float:none;
     }
@@ -1852,5 +1852,47 @@ body.pnotespagebody{
 @media (max-width:1212px){
     #pnotescontaineralt{
         height:200px;
+    }
+}
+
+@media (max-width: 1075px){
+    #email_link_alt{
+        margin-top:50px;
+    }
+}
+
+@media (max-width: 1075px){
+    #email_heading_alt,#email_link_alt{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:1075px){
+    #capstoneboxalt{
+        height:1500px;
+    }
+}
+
+@media(max-width:1075px){
+    #jcsalt{
+        height:1500px;
+    }
+}
+
+@media(max-width:1075px){
+    #snakenotonphonealt{
+        font-size:35px;
+    }
+}
+
+@media (max-width:1075px){
+    #snakepicsboxalt{
+        margin-top:150px;
+    }
+}
+
+@media (max-width:1075px){
+    #outerformcontaineralt{
+        height:750px;
     }
 }
