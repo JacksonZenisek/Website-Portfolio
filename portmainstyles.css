@@ -333,6 +333,14 @@ div.biodiv{
     text-align:left;
 }
 
+img.zenportfoliopic4exrt{
+    width:50%;
+    height:100%;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
 p.biography{
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
