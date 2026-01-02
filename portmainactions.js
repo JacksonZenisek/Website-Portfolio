@@ -201,6 +201,80 @@ function showitsection(){
 
 }
 
+setInterval(cfernport,1000);
+
+function cfernport(){
+
+    const y = new Date().getSeconds();
+
+    let a = document.getElementById("cfernpic1alt");
+    let b = document.getElementById("cfernpic2alt");
+    let c = document.getElementById("cfernpic3alt");
+    let d = document.getElementById("cfernpic4alt");
+   
+    if(y < 15){
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 15, y < 30){
+        b.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 30, y < 45){
+        c.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        d.style.display = "none";
+    }else{
+        d.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+    }
+
+}
+
+setInterval(dlstimer,1000);
+
+function dlstimer(){
+
+    const y = new Date().getSeconds();
+
+    let a = document.getElementById("dlspic1alt");
+    let b = document.getElementById("dlspic2alt");
+    let c = document.getElementById("dlspic3alt");
+    let d = document.getElementById("dlspic4alt");
+   
+    if(y < 15){
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 15, y < 30){
+        b.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 30, y < 45){
+        c.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        d.style.display = "none";
+    }else{
+        d.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+    }
+
+}
+
+
+
+
+
 setInterval(webdcapstoneproject,1000);
 
 function webdcapstoneproject(){
