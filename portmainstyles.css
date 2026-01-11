@@ -1786,7 +1786,7 @@ body.pnotespagebody{
 
 @media (max-width:1075px){
     #jcspicsboxalt{
-        margin-top:1000px;
+        margin-top:800px;
     }
 }
 
@@ -1812,7 +1812,7 @@ body.pnotespagebody{
 @media (max-width:1075px){
     #jcsdescriptionlinkalt,#jcslinkalt{
         font-size:30px;
-        margin-top:650px;
+        margin-top:550px;
     }
 }
 
@@ -1883,7 +1883,7 @@ body.pnotespagebody{
 
 @media(max-width:1075px){
     #jcsalt{
-        height:2000px;
+        height:1700px;
     }
 }
 
@@ -1908,11 +1908,5 @@ body.pnotespagebody{
 @media(max-width:1075px){
     #snakedivboxalt{
         height:1400px;
-    }
-}
-
-@media(max-width:1075px){
-    #jcsdescriptionboxalt{
-        height:500px;
     }
 }
