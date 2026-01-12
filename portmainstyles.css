@@ -215,43 +215,44 @@ div.spans3{
     display:block;
 }
 
-
 button.mobileexitmenubutton{
-    height:80px;
-    width:100px;
-    border:1px solid transparent;
-    background-color:transparent;
-    float:right;
-    display:block;
+  height:80px;
+  width:100px;
+  border:1px solid transparent;
+  background-color:transparent;
+  float:right;
+  display:block;
+
+  position:relative;
+}
+
+div.spans1exit,
+div.spans2exit{
+  height:4px;
+  width:65px;
+  background-color:black;
+  display:block;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform-origin:center;
+}
+
+div.spans1exit{
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+}
+
+div.spans2exit{
+  transform: translate(-50%, -50%) rotate(-45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 button.mobileexitmenubutton:hover{
     float:right;
     cursor:pointer;
 }
-
-div.spans1exit{
-    height:4px;
-    width:65px;
-    background-color:black;
-    margin-top:-15px;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-    rotate:45deg;
-}
-
-div.spans2exit{
-    height:4px;
-    width:65px;
-    background-color:black;
-    margin-top:-2px;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-    rotate:135deg;
-}
-
 
 img.closeoutmobilemenu{
     height:50px;
