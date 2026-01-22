@@ -1850,7 +1850,7 @@ body.pnotespagebody{
 @media (max-width:1075px){
     #jcsdescriptionlinkalt,#jcslinkalt{
         font-size:30px;
-        margin-top:650px;
+        margin-top:600px;
     }
 }
 
@@ -1875,7 +1875,7 @@ body.pnotespagebody{
 
 @media(max-width:1075px){
     #rrmmichaellinkalt{
-        margin-top:500px;
+        margin-top:600px;
         font-size:30px;
     }
 }
@@ -1884,7 +1884,7 @@ body.pnotespagebody{
     #capstonepicboxalt{
         margin-right:auto;
         margin-left:auto;
-        margin-top:800px;
+        margin-top:850px;
         display:block;
         float:none;
     }
