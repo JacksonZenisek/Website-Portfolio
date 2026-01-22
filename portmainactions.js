@@ -201,6 +201,41 @@ function showitsection(){
 
 }
 
+setInterval(rrmmichaelport,1000);
+
+function rrmmichaelport(){
+
+    const y = new Date().getSeconds();
+
+    let a = document.getElementById("rrmmichael1picalt");
+    let b = document.getElementById("rrmmichael2picalt");
+    let c = document.getElementById("rrmmichael3picalt");
+    let d = document.getElementById("rrmmichae41picalt");
+   
+    if(y < 15){
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 15, y < 30){
+        b.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+    }else if(y > 30, y < 45){
+        c.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        d.style.display = "none";
+    }else{
+        d.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+    }
+
+}
+
 setInterval(cfernport,1000);
 
 function cfernport(){
