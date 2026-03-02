@@ -1507,6 +1507,22 @@ button.submitbuttonerrorform:hover{
     background-color: rgb(119, 193, 243);
 }
 
+img.pythonscriptspic{
+    height: 350px;
+    width: 750px;
+}
+
+a.pythonaccgithublink{
+    font-size:25px;
+    color: rgb(115, 182, 199);
+    text-decoration:none;
+}
+
+a.pythonaccgithublink:hover{
+    text-decoration: underline rgb(206, 206, 76);
+    text-underline-offset: 8px;
+}
+
 /*Pnotes Section*/
 
 body.pnotespagebody{
